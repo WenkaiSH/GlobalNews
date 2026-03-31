@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章阅读 - GlobalNews</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8fafc;
+            line-height: 1.6;
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        
+        /* Header */
+        header {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .back-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #64748b;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .back-link:hover { color: #2563eb; }
+        
+        /* Article Header */
+        .article-header {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            margin: 24px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+            font-size: 14px;
+            color: #94a3b8;
+            flex-wrap: wrap;
+        }
+        .level-badge {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            color: white;
+        }
+        .bg-beginner { background: linear-gradient(135deg, #10b981, #059669); }
+        .bg-intermediate { background: linear-gradient(135deg, #f59e0b, #ea580c); }
+        .bg-advanced { background: linear-gradient(135deg, #f43f5e, #dc2626); }
+        
+        .article-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+        .article-subtitle {
+            font-size: 16px;
+            color: #64748b;
+            margin-bottom: 16px;
+        }
+        .article-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .article-tag {
+            background: #f1f5f9;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: #64748b;
+        }
+        
+        /* Content Section */
+        .content-section {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* Sentences */
+        .sentence {
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+        }
+        .sentence:nth-child(odd) { background: #f8fafc; }
+        .sentence:nth-child(even) { background: white; border: 1px solid #f1f5f9; }
+        
+        .sentence-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        .sentence-number {
+            width: 28px;
+            height: 28px;
+            background: #dbeafe;
+            color: #2563eb;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+        .sentence-content { flex: 1; }
+        .sentence-english {
+            font-size: 16px;
+            color: #1e293b;
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        .sentence-chinese {
+            font-size: 14px;
+            color: #64748b;
+            border-left: 3px solid #93c5fd;
+            padding-left: 12px;
+        }
+        
+        /* Vocabulary */
+        .vocab-item {
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+        }
+        .vocab-item:nth-child(odd) { background: #f0fdf4; }
+        .vocab-item:nth-child(even) { background: white; border: 1px solid #f1f5f9; }
+        
+        .vocab-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        .vocab-word {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1e293b;
+        }
+        .vocab-phonetic {
+            color: #94a3b8;
+            font-size: 14px;
+        }
+        .vocab-pos {
+            background: #e2e8f0;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #64748b;
+            margin-left: 8px;
+        }
+        .vocab-level {
+            background: #dbeafe;
+            color: #2563eb;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+        }
+        .vocab-meaning {
+            color: #374151;
+            margin-bottom: 12px;
+        }
+        .vocab-example {
+            background: rgba(255,255,255,0.7);
+            padding: 12px;
+            border-radius: 8px;
+            font-style: italic;
+            color: #64748b;
+            font-size: 14px;
+        }
+        .vocab-synonyms {
+            margin-top: 8px;
+            font-size: 12px;
+            color: #94a3b8;
+        }
+        
+        /* Footer */
+        footer {
+            background: white;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 40px;
+            padding: 24px;
+            text-align: center;
+        }
+        footer a { color: #2563eb; text-decoration: none; }
+        footer p { color: #94a3b8; font-size: 14px; }
+        
+        /* Source Link */
+        .source-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #f1f5f9;
+            padding: 8px 16px;
+            border-radius: 8px;
+            color: #2563eb;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 16px;
+        }
+        .source-link:hover { background: #e0f2fe; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="back-link">
+                <span>←</span>
+                <span>返回首页</span>
+            </a>
+            <span id="article-level"></span>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="article-content">
+            <div style="text-align: center; padding: 60px 20px; color: #94a3b8;">
+                <p>加载中...</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p><a href="index.html">← 返回首页继续学习</a></p>
+        <p style="margin-top: 8px;">© 2026 GlobalNews</p>
+    </footer>
+
+    <script>
+        const levelMap = {
+            'beginner': { label: '🟢 初级', bg: 'bg-beginner' },
+            'intermediate': { label: '🟡 中级', bg: 'bg-intermediate' },
+            'advanced': { label: '🔴 进阶', bg: 'bg-advanced' }
+        };
+        
+        async function loadArticle() {
+            const params = new URLSearchParams(window.location.search);
+            const id = params.get('id');
+            const date = params.get('date');
+            
+            if (!id || !date) {
+                document.getElementById('article-content').innerHTML = '<p>文章参数错误</p>';
+                return;
+            }
+            
+            try {
+                const response = await fetch(`content/${date}/${id}.json`);
+                if (!response.ok) throw new Error('Article not found');
+                
+                const article = await response.json();
+                const level = levelMap[article.level];
+                
+                document.getElementById('article-level').innerHTML = 
+                    `<span class="level-badge ${level.bg}">${level.label}</span>`;
+                
+                const sentencesHtml = article.content.sentences.map(s => `
+                    <div class="sentence">
+                        <div class="sentence-header">
+                            <span class="sentence-number">${s.index}</span>
+                            <div class="sentence-content">
+                                <p class="sentence-english">${s.text}</p>
+                                <p class="sentence-chinese">${s.translation}</p>
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+                
+                const vocabHtml = article.vocabulary.map(v => `
+                    <div class="vocab-item">
+                        <div class="vocab-header">
+                            <div>
+                                <span class="vocab-word">${v.word}</span>
+                                <span class="vocab-phonetic">${v.phonetic}</span>
+                                <span class="vocab-pos">${v.pos}</span>
+                            </div>
+                            <span class="vocab-level">${v.level}</span>
+                        </div>
+                        <p class="vocab-meaning">${v.meaning}</p>
+                        <div class="vocab-example">"${v.example}"</div>
+                        ${v.synonyms.length > 0 ? `<div class="vocab-synonyms">同义词: ${v.synonyms.join(', ')}</div>` : ''}
+                    </div>
+                `).join('');
+                
+                document.getElementById('article-content').innerHTML = `
+                    <div class="article-header">
+                        <div class="article-meta">
+                            <span>📰 ${article.source.name}</span>
+                            <span>·</span>
+                            <span>${article.topic}</span>
+                            <span>·</span>
+                            <span>⏱️ ${article.reading_time}分钟</span>
+                            <span>·</span>
+                            <span>📝 ${article.word_count}词</span>
+                        </div>
+                        
+                        <h1 class="article-title">${article.title}</h1>
+                        <p class="article-subtitle">${article.title_cn}</p>
+                        
+                        <div class="article-tags">
+                            ${article.hot_tags.map(tag => `<span class="article-tag">#${tag}</span>`).join('')}
+                        </div>
+                        
+                        <a href="${article.source.url}" target="_blank" class="source-link">
+                            📎 查看原文
+                        </a>
+                    </div>
+                    
+                    <div class="content-section">
+                        <h2 class="section-title"><span>📖</span> 原文与翻译</h2>
+                        ${sentencesHtml}
+                    </div>
+                    
+                    <div class="content-section">
+                        <h2 class="section-title"><span>💡</span> 重点词汇 (${article.vocabulary.length}个)</h2>
+                        ${vocabHtml}
+                    </div>
+                `;
+                
+            } catch (error) {
+                document.getElementById('article-content').innerHTML = `
+                    <div style="text-align: center; padding: 60px 20px; color: #94a3b8;">
+                        <p>文章加载失败</p>
+                    </div>
+                `;
+            }
+        }
+        
+        loadArticle();
+    </script>
+</body>
+</html>

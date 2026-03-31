@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobalNews - 每日精选英文阅读</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 50%, #ede9fe 100%);
+            min-height: 100vh;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        
+        /* Header */
+        header {
+            background: rgba(255,255,255,0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #e2e8f0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 16px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { display: flex; align-items: center; gap: 12px; }
+        .logo-icon {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, #3b82f6, #6366f1);
+            border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 20px;
+        }
+        .logo-text h1 {
+            font-size: 18px;
+            background: linear-gradient(135deg, #2563eb, #4f46e5);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .logo-text p { font-size: 12px; color: #64748b; }
+        .date { color: #64748b; font-size: 14px; }
+        
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .hero h2 {
+            font-size: 28px;
+            color: #1e293b;
+            margin-bottom: 12px;
+        }
+        .hero h2 span { color: #2563eb; display: block; }
+        .hero p { color: #64748b; margin-bottom: 24px; }
+        .badges {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .badge {
+            background: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            color: #475569;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        /* Articles Grid */
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 24px;
+            margin-top: 20px;
+        }
+        .article-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+        .article-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .level-bar { height: 4px; }
+        .level-beginner { background: linear-gradient(90deg, #10b981, #059669); }
+        .level-intermediate { background: linear-gradient(90deg, #f59e0b, #ea580c); }
+        .level-advanced { background: linear-gradient(90deg, #f43f5e, #dc2626); }
+        
+        .card-body { padding: 24px; }
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        .level-badge {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            color: white;
+        }
+        .bg-beginner { background: linear-gradient(135deg, #10b981, #059669); }
+        .bg-intermediate { background: linear-gradient(135deg, #f59e0b, #ea580c); }
+        .bg-advanced { background: linear-gradient(135deg, #f43f5e, #dc2626); }
+        .topic { font-size: 12px; color: #94a3b8; }
+        
+        .card-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+        .card-subtitle {
+            font-size: 14px;
+            color: #64748b;
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+        
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #94a3b8;
+            margin-bottom: 12px;
+        }
+        
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .tag {
+            background: #f1f5f9;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            color: #64748b;
+        }
+        
+        .read-more {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #f1f5f9;
+            color: #2563eb;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        /* Footer */
+        footer {
+            background: white;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 60px;
+            padding: 24px;
+            text-align: center;
+        }
+        footer p { color: #94a3b8; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">📚</div>
+                <div class="logo-text">
+                    <h1>GlobalNews</h1>
+                    <p>每日精选英文阅读</p>
+                </div>
+            </div>
+            <div class="date" id="current-date"></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h2>每天三篇精选文章<span>提升英语阅读能力</span></h2>
+            <p>精选24小时内全球热点新闻，按难度分级，配有逐句翻译和重点词汇</p>
+            <div class="badges">
+                <span class="badge">🟢 初级 400-700词</span>
+                <span class="badge">🟡 中级 700-1200词</span>
+                <span class="badge">🔴 进阶 1000-1800词</span>
+            </div>
+        </section>
+
+        <div class="articles-grid" id="articles-container">
+            <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #94a3b8;">
+                加载中...
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 GlobalNews · 每日精选英文阅读 · 数据来源: Reuters, BBC, Guardian</p>
+    </footer>
+
+    <script>
+        // 设置日期
+        const today = new Date();
+        document.getElementById('current-date').textContent = today.toLocaleDateString('zh-CN', {
+            year: 'numeric', month: 'long', day: 'numeric', weekday: 'long'
+        });
+
+        // 获取日期字符串
+        const dateStr = today.toISOString().split('T')[0];
+
+        // 加载文章
+        async function loadArticles() {
+            try {
+                const response = await fetch(`content/${dateStr}/meta.json`);
+                if (!response.ok) throw new Error('No articles today');
+                
+                const meta = await response.json();
+                const container = document.getElementById('articles-container');
+                
+                const articles = [];
+                for (const articleMeta of meta.articles) {
+                    const artResponse = await fetch(`content/${dateStr}/article-${articleMeta.id.split('-')[1]}.json`);
+                    if (artResponse.ok) {
+                        articles.push(await artResponse.json());
+                    }
+                }
+                
+                const levelMap = {
+                    'beginner': { label: '🟢 初级', class: 'beginner', bg: 'bg-beginner' },
+                    'intermediate': { label: '🟡 中级', class: 'intermediate', bg: 'bg-intermediate' },
+                    'advanced': { label: '🔴 进阶', class: 'advanced', bg: 'bg-advanced' }
+                };
+                
+                container.innerHTML = articles.map(article => {
+                    const level = levelMap[article.level];
+                    return `
+                        <a href="article.html?id=${article.id}&date=${dateStr}" class="article-card">
+                            <div class="level-bar level-${level.class}"></div>
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <span class="level-badge ${level.bg}">${level.label}</span>
+                                    <span class="topic">${article.topic}</span>
+                                </div>
+                                <h3 class="card-title">${article.title}</h3>
+                                <p class="card-subtitle">${article.title_cn}</p>
+                                <div class="card-meta">
+                                    <span>📰 ${article.source.name}</span>
+                                    <span>⏱️ ${article.reading_time}分钟 · 📝 ${article.word_count}词</span>
+                                </div>
+                                <div class="tags">
+                                    ${article.hot_tags.slice(0, 3).map(tag => `<span class="tag">#${tag}</span>`).join('')}
+                                </div>
+                                <div class="read-more">开始学习 →</div>
+                            </div>
+                        </a>
+                    `;
+                }).join('');
+                
+            } catch (error) {
+                document.getElementById('articles-container').innerHTML = `
+                    <div style="grid-column: 1/-1; text-align: center; padding: 60px 20px; color: #94a3b8;">
+                        <p style="font-size: 48px; margin-bottom: 16px;">📝</p>
+                        <p>今日文章准备中，请稍后再来...</p>
+                    </div>
+                `;
+            }
+        }
+        
+        loadArticles();
+    </script>
+</body>
+</html>

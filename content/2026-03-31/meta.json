@@ -1,0 +1,44 @@
+{
+  "date": "2026-03-31",
+  "articles": [
+    {
+      "id": "20260331-1",
+      "level": "beginner",
+      "level_label": "初级",
+      "title": "Record Heat Forces US Ski Resorts to Bulldoze Snow",
+      "title_cn": "创纪录高温迫使美国滑雪场推土机运雪",
+      "topic": "环境 / 气候",
+      "word_count": 520,
+      "reading_time": 4,
+      "source": "Reuters",
+      "publish_time": "2026-03-30T14:00:00Z"
+    },
+    {
+      "id": "20260331-2",
+      "level": "intermediate",
+      "level_label": "中级",
+      "title": "Nifty Posts Worst FY26 Close as West Asia War Enters Week Five",
+      "title_cn": "西亚战争进入第五周，印度Nifty指数创FY26最差收盘",
+      "topic": "金融 / 市场",
+      "word_count": 680,
+      "reading_time": 5,
+      "source": "The Hindu Business Line",
+      "publish_time": "2026-03-31T07:30:00+05:30"
+    },
+    {
+      "id": "20260331-3",
+      "level": "advanced",
+      "level_label": "进阶",
+      "title": "Global Climate Crisis: From Permafrost Thaw to Record Heat Waves",
+      "title_cn": "全球气候危机：从永久冻土融化到创纪录热浪",
+      "topic": "环境 / 科学",
+      "word_count": 850,
+      "reading_time": 7,
+      "source": "Climate News Round-up",
+      "publish_time": "2026-03-31T08:00:00Z"
+    }
+  ],
+  "total_word_count": 2050,
+  "created_at": "2026-03-31T22:15:00+08:00",
+  "status": "completed"
+}

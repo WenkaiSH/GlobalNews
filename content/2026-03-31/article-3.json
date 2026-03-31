@@ -1,0 +1,147 @@
+{
+  "id": "20260331-3",
+  "date": "2026-03-31",
+  "level": "advanced",
+  "level_label": "进阶",
+  "source": {
+    "name": "Multiple Sources",
+    "url": "https://climateandeconomy.com/2026/03/31/31st-march-2026-todays-round-up-of-climate-news/",
+    "publish_time": "2026-03-31T08:00:00Z"
+  },
+  "title": "Global Climate Crisis: From Permafrost Thaw to Record Heat Waves",
+  "title_cn": "全球气候危机：从永久冻土融化到创纪录热浪",
+  "topic": "环境 / 科学",
+  "word_count": 850,
+  "reading_time": 7,
+  "content": {
+    "original_text": "Climate scientists are raising alarms as multiple extreme weather events unfold simultaneously across the globe. Experiments by University of Leeds researchers, published in Earth's Future, have shown that thawing of permafrost makes it between 25 and 100 times more permeable, allowing more climate change forcing gases to escape. This discovery has significant implications for global warming projections. Meanwhile, Russia's North Caucasus region has been hit by massive flooding, with thousands evacuated after torrential rainfall flooded streets in Dagestan. At the same time, extreme heat waves are breaking records across Asia. Japan recorded its warmest March days in history, with 10 stations setting new records. North Korea also experienced its warmest March nights in several stations. Scientists warn that these events are interconnected manifestations of accelerating climate change, driven by human activities and natural climate patterns like El Niño.",
+    "sentences": [
+      {
+        "index": 1,
+        "text": "Climate scientists are raising alarms as multiple extreme weather events unfold simultaneously across the globe.",
+        "translation": "随着多个极端天气事件在全球同时发生，气候科学家正在发出警报。"
+      },
+      {
+        "index": 2,
+        "text": "Experiments by University of Leeds researchers have shown that thawing of permafrost makes it between 25 and 100 times more permeable.",
+        "translation": "利兹大学研究人员的实验表明，永久冻土融化使其渗透性提高了25到100倍。"
+      },
+      {
+        "index": 3,
+        "text": "This allows more climate change forcing gases to escape, with significant implications for global warming projections.",
+        "translation": "这使得更多迫使气候变化的气体得以释放，对全球变暖预测具有重大影响。"
+      },
+      {
+        "index": 4,
+        "text": "Meanwhile, Russia's North Caucasus region has been hit by massive flooding, with thousands evacuated.",
+        "translation": "与此同时，俄罗斯北高加索地区遭受大规模洪水袭击，数千人被疏散。"
+      },
+      {
+        "index": 5,
+        "text": "Torrential rainfall flooded streets in Dagestan, damaging homes, vehicles and infrastructure.",
+        "translation": "倾盆大雨淹没了达吉斯坦的街道，损坏了房屋、车辆和基础设施。"
+      },
+      {
+        "index": 6,
+        "text": "At the same time, extreme heat waves are breaking records across Asia.",
+        "translation": "与此同时，极端热浪正在亚洲打破纪录。"
+      },
+      {
+        "index": 7,
+        "text": "Japan recorded its warmest March days in history, with 10 stations setting new records.",
+        "translation": "日本记录了历史上最温暖的三月天气，10个站点创下新纪录。"
+      },
+      {
+        "index": 8,
+        "text": "North Korea also experienced its warmest March nights in several stations.",
+        "translation": "朝鲜在几个站点也经历了最温暖的三月夜晚。"
+      },
+      {
+        "index": 9,
+        "text": "Scientists warn that these events are interconnected manifestations of accelerating climate change.",
+        "translation": "科学家警告说，这些事件是加速气候变化相互关联的表现。"
+      },
+      {
+        "index": 10,
+        "text": "These changes are driven by human activities and natural climate patterns like El Niño.",
+        "translation": "这些变化是由人类活动和厄尔尼诺等自然气候模式驱动的。"
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "permafrost",
+      "phonetic": "/ˈpɜːrməfrɔːst/",
+      "level": "专业",
+      "pos": "n.",
+      "meaning": "永久冻土；永冻层",
+      "example": "Permafrost covers about 25% of land in the Northern Hemisphere.",
+      "synonyms": ["frozen ground", "tundra"]
+    },
+    {
+      "word": "permeable",
+      "phonetic": "/ˈpɜːrmiəbl/",
+      "level": "CET-6",
+      "pos": "adj.",
+      "meaning": "可渗透的；透气的",
+      "example": "The soil is highly permeable, allowing water to drain quickly.",
+      "synonyms": ["porous", "penetrable", "pervious"]
+    },
+    {
+      "word": "manifestation",
+      "phonetic": "/ˌmænɪfeˈsteɪʃn/",
+      "level": "专业",
+      "pos": "n.",
+        "meaning": "表现；显示；示威",
+      "example": "The protests were a manifestation of public anger.",
+      "synonyms": ["expression", "indication", "demonstration"]
+    },
+    {
+      "word": "torrential",
+      "phonetic": "/təˈrenʃl/",
+      "level": "CET-6",
+      "pos": "adj.",
+      "meaning": "倾泻的；汹涌的",
+      "example": "Torrential rain caused flooding in many areas.",
+      "synonyms": ["heavy", "pouring", "violent"]
+    },
+    {
+      "word": "evacuate",
+      "phonetic": "/ɪˈvækjueɪt/",
+      "level": "CET-6",
+      "pos": "v.",
+      "meaning": "疏散；撤离；排泄",
+      "example": "Police ordered residents to evacuate the building immediately.",
+      "synonyms": ["remove", "clear", "vacate"]
+    },
+    {
+      "word": "simultaneously",
+      "phonetic": "/ˌsaɪmlˈteɪniəsli/",
+      "level": "CET-6",
+      "pos": "adv.",
+      "meaning": "同时地",
+      "example": "The two events happened simultaneously in different cities.",
+      "synonyms": ["concurrently", "at the same time", "together"]
+    },
+    {
+      "word": "implication",
+      "phonetic": "/ˌɪmplɪˈkeɪʃn/",
+      "level": "CET-6",
+      "pos": "n.",
+      "meaning": "含义；暗示；影响",
+      "example": "The new law has far-reaching implications for businesses.",
+      "synonyms": ["consequence", "significance", "inference"]
+    },
+    {
+      "word": "interconnected",
+      "phonetic": "/ˌɪntərkəˈnektɪd/",
+      "level": "CET-6",
+      "pos": "adj.",
+      "meaning": "相互关联的",
+      "example": "The global economy is highly interconnected.",
+      "synonyms": ["linked", "related", "interwoven"]
+    }
+  ],
+  "hot_tags": ["climate change", "permafrost", "flooding", "heat wave", "global warming", "Russia", "Japan"],
+  "created_at": "2026-03-31T22:15:00+08:00"
+}

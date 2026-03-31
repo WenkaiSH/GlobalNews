@@ -1,0 +1,114 @@
+{
+  "id": "20260331-1",
+  "date": "2026-03-31",
+  "level": "beginner",
+  "level_label": "初级",
+  "source": {
+    "name": "Reuters",
+    "url": "https://www.reuters.com/business/environment/record-heat-us-ski-resorts-bulldoze-snow-skiers-wear-bikinis-2026-03-30/",
+    "publish_time": "2026-03-30T14:00:00Z"
+  },
+  "title": "Record Heat Forces US Ski Resorts to Bulldoze Snow",
+  "title_cn": "创纪录高温迫使美国滑雪场推土机运雪",
+  "topic": "环境 / 气候",
+  "word_count": 520,
+  "reading_time": 4,
+  "content": {
+    "original_text": "In March 2026, record-breaking heat and historic snow droughts across the Western United States forced many ski resorts into desperate measures, including bulldozing snow from shaded mountain areas onto thin runs to remain operational. Ski areas in California, Colorado, and Utah reported temperatures more than 20 degrees above normal for this time of year. Some skiers were seen wearing bikinis and shorts on the slopes as temperatures reached the 70s and 80s Fahrenheit. The unusual warmth has melted much of the natural snowpack that typically lasts through spring. Resort managers say this is the worst spring skiing season they have experienced in decades. Climate scientists attribute the extreme heat to a combination of long-term global warming and a strong El Niño pattern.",
+    "sentences": [
+      {
+        "index": 1,
+        "text": "In March 2026, record-breaking heat and historic snow droughts across the Western United States forced many ski resorts into desperate measures.",
+        "translation": "2026年3月，创纪录的高温和历史性的雪旱迫使美国西部许多滑雪场采取绝望的措施。"
+      },
+      {
+        "index": 2,
+        "text": "These measures included bulldozing snow from shaded mountain areas onto thin runs to remain operational.",
+        "translation": "这些措施包括用推土机将雪从阴凉的山地区域推到雪道上，以维持运营。"
+      },
+      {
+        "index": 3,
+        "text": "Ski areas in California, Colorado, and Utah reported temperatures more than 20 degrees above normal for this time of year.",
+        "translation": "加利福尼亚、科罗拉多和犹他州的滑雪区报告气温比往年同期高出20多度。"
+      },
+      {
+        "index": 4,
+        "text": "Some skiers were seen wearing bikinis and shorts on the slopes as temperatures reached the 70s and 80s Fahrenheit.",
+        "translation": "一些滑雪者被看到穿着比基尼和短裤在雪坡上滑雪，气温达到了华氏70到80度。"
+      },
+      {
+        "index": 5,
+        "text": "The unusual warmth has melted much of the natural snowpack that typically lasts through spring.",
+        "translation": "这种异常的温暖融化了通常在春季持续存在的天然积雪。"
+      },
+      {
+        "index": 6,
+        "text": "Resort managers say this is the worst spring skiing season they have experienced in decades.",
+        "translation": "度假村经理表示，这是他们几十年来经历的最糟糕的春季滑雪季节。"
+      },
+      {
+        "index": 7,
+        "text": "Climate scientists attribute the extreme heat to a combination of long-term global warming and a strong El Niño pattern.",
+        "translation": "气候科学家将极端高温归因于长期全球变暖和强烈的厄尔尼诺模式的结合。"
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "record-breaking",
+      "phonetic": "/ˈrekɔːrdˌbreɪkɪŋ/",
+      "level": "高中",
+      "pos": "adj.",
+      "meaning": "创纪录的",
+      "example": "The athlete set a record-breaking time in the 100-meter dash.",
+      "synonyms": ["unprecedented", "historic"]
+    },
+    {
+      "word": "drought",
+      "phonetic": "/draʊt/",
+      "level": "CET-4",
+      "pos": "n.",
+      "meaning": "干旱；旱灾",
+      "example": "The region has suffered from severe drought for three years.",
+      "synonyms": ["dry spell", "water shortage"]
+    },
+    {
+      "word": "bulldoze",
+      "phonetic": "/ˈbʊldoʊz/",
+      "level": "CET-6",
+      "pos": "v.",
+      "meaning": "用推土机推；强迫",
+      "example": "Workers bulldozed the rubble to clear the construction site.",
+      "synonyms": ["clear", "level", "push"]
+    },
+    {
+      "word": "operational",
+      "phonetic": "/ˌɑːpəˈreɪʃənl/",
+      "level": "CET-6",
+      "pos": "adj.",
+      "meaning": "运营的；可使用的",
+      "example": "The new airport will be operational by next month.",
+      "synonyms": ["functional", "working", "running"]
+    },
+    {
+      "word": "snowpack",
+      "phonetic": "/ˈsnoʊpæk/",
+      "level": "专业",
+      "pos": "n.",
+      "meaning": "积雪；雪原",
+      "example": "The mountain snowpack provides water for the valley below.",
+      "synonyms": ["snow field", "snow accumulation"]
+    },
+    {
+      "word": "attribute",
+      "phonetic": "/əˈtrɪbjuːt/",
+      "level": "CET-6",
+      "pos": "v.",
+      "meaning": "把...归因于",
+      "example": "She attributes her success to hard work and determination.",
+      "synonyms": ["ascribe", "credit", "blame"]
+    }
+  ],
+  "hot_tags": ["climate change", "ski resorts", "heat wave", "USA", "environment"],
+  "created_at": "2026-03-31T22:15:00+08:00"
+}

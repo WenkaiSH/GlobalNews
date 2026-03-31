@@ -1,0 +1,142 @@
+{
+  "id": "20260331-2",
+  "date": "2026-03-31",
+  "level": "intermediate",
+  "level_label": "中级",
+  "source": {
+    "name": "The Hindu Business Line",
+    "url": "https://www.thehindubusinessline.com/multimedia/audio/top-business-amp-market-headlines-today-bl-morning-report-march-31-2026/article70803579.ece",
+    "publish_time": "2026-03-31T07:30:00+05:30"
+  },
+  "title": "Nifty Posts Worst FY26 Close as West Asia War Enters Week Five",
+  "title_cn": "西亚战争进入第五周，印度Nifty指数创FY26最差收盘",
+  "topic": "金融 / 市场",
+  "word_count": 680,
+  "reading_time": 5,
+  "content": {
+    "original_text": "Markets ended the final session of FY2026 sharply lower on Monday, with the Nifty 50 falling 488 points or 2.14 per cent, marking a loss of 5.05 per cent for the full financial year. The decline came as the US-Iran conflict entered its fifth week without any credible pathway to resolution, and crude oil held above $100 a barrel. It was the worst monthly decline for equities in six years. The Nifty50 ended nearly at a one-year low and the Sensex at a 2-year low. The Sensex fell 1,636 points. India VIX, a measure of market volatility, surged to an intraday high of 28.79 before settling near 30. The Indian rupee plunged to a low of 95.21 against the dollar. Meanwhile, Indian government bonds slumped, with the 10-year benchmark bond yield posting its biggest monthly spike in nine years, breaching the 7% level for the first time since July 2024.",
+    "sentences": [
+      {
+        "index": 1,
+        "text": "Markets ended the final session of FY2026 sharply lower on Monday, with the Nifty 50 falling 488 points or 2.14 per cent.",
+        "translation": "周一，市场以FY2026最后一个交易日大幅下跌收场，Nifty 50指数下跌488点，跌幅2.14%。"
+      },
+      {
+        "index": 2,
+        "text": "This marked a loss of 5.05 per cent for the full financial year.",
+        "translation": "这标志着整个财年损失了5.05%。"
+      },
+      {
+        "index": 3,
+        "text": "The decline came as the US-Iran conflict entered its fifth week without any credible pathway to resolution.",
+        "translation": "下跌发生之际，美伊冲突已进入第五周，且没有任何可信的解决途径。"
+      },
+      {
+        "index": 4,
+        "text": "Crude oil held above $100 a barrel, adding pressure to the markets.",
+        "translation": "原油价格维持在每桶100美元以上，给市场增加了压力。"
+      },
+      {
+        "index": 5,
+        "text": "It was the worst monthly decline for equities in six years.",
+        "translation": "这是六年来股票市场最严重的月度跌幅。"
+      },
+      {
+        "index": 6,
+        "text": "The Nifty50 ended nearly at a one-year low and the Sensex at a 2-year low.",
+        "translation": "Nifty50指数收于近一年低点，Sensex指数收于两年低点。"
+      },
+      {
+        "index": 7,
+        "text": "India VIX, a measure of market volatility, surged to an intraday high of 28.79 before settling near 30.",
+        "translation": "印度VIX指数（衡量市场波动性的指标）飙升至日内高点28.79，随后收于30附近。"
+      },
+      {
+        "index": 8,
+        "text": "The Indian rupee plunged to a low of 95.21 against the dollar.",
+        "translation": "印度卢比兑美元跌至95.21的低点。"
+      },
+      {
+        "index": 9,
+        "text": "Meanwhile, Indian government bonds slumped, with the 10-year benchmark bond yield posting its biggest monthly spike in nine years.",
+        "translation": "与此同时，印度政府债券下跌，10年期基准债券收益率创下九年来最大的月度涨幅。"
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "word": "sharply",
+      "phonetic": "/ˈʃɑːrpli/",
+      "level": "CET-4",
+      "pos": "adv.",
+      "meaning": "急剧地；严厉地",
+      "example": "Prices rose sharply after the supply shortage.",
+      "synonyms": ["steeply", "dramatically", "severely"]
+    },
+    {
+      "word": "resolution",
+      "phonetic": "/ˌrezəˈluːʃn/",
+      "level": "CET-4",
+      "pos": "n.",
+      "meaning": "解决；决议；决心",
+      "example": "The UN called for a peaceful resolution to the conflict.",
+      "synonyms": ["solution", "settlement", "decision"]
+    },
+    {
+      "word": "crude",
+      "phonetic": "/kruːd/",
+      "level": "CET-6",
+      "pos": "adj./n.",
+      "meaning": "原油；天然的；粗糙的",
+      "example": "Crude oil prices affect the global economy.",
+      "synonyms": ["raw", "unrefined", "rough"]
+    },
+    {
+      "word": "equity",
+      "phonetic": "/ˈekwəti/",
+      "level": "商务英语",
+      "pos": "n.",
+      "meaning": "股票；权益；公平",
+      "example": "Investors are moving money from bonds into equities.",
+      "synonyms": ["stock", "share", "fairness"]
+    },
+    {
+      "word": "volatility",
+      "phonetic": "/ˌvɑːləˈtɪləti/",
+      "level": "商务英语",
+      "pos": "n.",
+      "meaning": "波动性；不稳定性",
+      "example": "High volatility makes investors nervous.",
+      "synonyms": ["instability", "fluctuation", "unpredictability"]
+    },
+    {
+      "word": "plunge",
+      "phonetic": "/plʌndʒ/",
+      "level": "CET-6",
+      "pos": "v./n.",
+      "meaning": "暴跌；跳入",
+      "example": "The stock market plunged after the bad economic news.",
+      "synonyms": ["plummet", "dive", "drop"]
+    },
+    {
+      "word": "benchmark",
+      "phonetic": "/ˈbentʃmɑːrk/",
+      "level": "商务英语",
+      "pos": "n./v.",
+      "meaning": "基准；标准",
+      "example": "This fund is measured against the S&P 500 benchmark.",
+      "synonyms": ["standard", "reference", "yardstick"]
+    },
+    {
+      "word": "yield",
+      "phonetic": "/jiːld/",
+      "level": "CET-6",
+      "pos": "n./v.",
+      "meaning": "收益率；产出；屈服",
+      "example": "The bond yield reached 7% for the first time in years.",
+      "synonyms": ["return", "produce", "surrender"]
+    }
+  ],
+  "hot_tags": ["India", "stock market", "oil prices", "Nifty", "Sensex", "Middle East conflict"],
+  "created_at": "2026-03-31T22:15:00+08:00"
+}
