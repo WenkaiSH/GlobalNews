@@ -277,7 +277,9 @@
             }
             
             try {
-                const response = await fetch(`content/${date}/${id}.json`);
+                // 从ID提取序号，例如 "20260401-1" -> "article-1"
+                const articleNum = id.split('-')[1];
+                const response = await fetch(`content/${date}/article-${articleNum}.json`);
                 if (!response.ok) throw new Error('Article not found');
                 
                 const article = await response.json();
