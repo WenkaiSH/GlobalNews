@@ -272,6 +272,27 @@
             const date = params.get('date');
             
             if (!id || !date) {
+                document.getElementById('article-content').innerHTML = '<p style="text-align:center;padding:60px;color:#e74c3c">文章参数错误，缺少 id 或 date</p>';
+                return;
+            }
+            
+            const url = `content/${date}/article-${id.split('-')[1]}.json`;
+            console.log('[DEBUG] 开始加载:', url);
+            document.getElementById('article-content').innerHTML = '<p style="text-align:center;padding:60px;color:#94a3b8">加载中: ' + url + '</p>';
+            
+            try {
+                const controller = new AbortController();
+                const tid = setTimeout(() => controller.abort(), 15000);
+                const response = await fetch(url, { signal: controller.signal });
+                clearTimeout(tid);
+                console.log('[DEBUG] fetch完成, status:', response.status);
+                if (!response.ok) throw new Error('HTTP ' + response.status);
+                
+                 = new URLSearchParams(window.location.search);
+            const id = params.get('id');
+            const date = params.get('date');
+            
+            if (!id || !date) {
                 document.getElementById('article-content').innerHTML = '<p>文章参数错误</p>';
                 return;
             }
@@ -280,9 +301,9 @@
                 // 从ID提取序号，例如 "20260401-1" -> "article-1"
                 const articleNum = id.split('-')[1];
                 const response = await fetch(`content/${date}/article-${articleNum}.json`);
-                if (!response.ok) throw new Error('Article not found');
                 
-                const article = await response.json();
+                
+                
                 const level = levelMap[article.level];
                 
                 document.getElementById('article-level').innerHTML = 
