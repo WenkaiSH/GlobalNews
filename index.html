@@ -222,7 +222,9 @@
         // 加载文章
         async function loadArticles() {
             try {
-                const response = await fetch(`content/${dateStr}/meta.json`);
+                // 添加随机参数绕过缓存
+                const cacheBuster = `?v=${Date.now()}`;
+                const response = await fetch(`content/${dateStr}/meta.json${cacheBuster}`);
                 if (!response.ok) throw new Error('No articles today');
                 
                 const meta = await response.json();
@@ -230,7 +232,7 @@
                 
                 const articles = [];
                 for (const articleMeta of meta.articles) {
-                    const artResponse = await fetch(`content/${dateStr}/article-${articleMeta.id.split('-')[1]}.json`);
+                    const artResponse = await fetch(`content/${dateStr}/article-${articleMeta.id.split('-')[1]}.json${cacheBuster}`);
                     if (artResponse.ok) {
                         articles.push(await artResponse.json());
                     }
