@@ -1,0 +1,44 @@
+{
+  "date": "2026-04-01",
+  "articles": [
+    {
+      "id": "20260401-1",
+      "level": "beginner",
+      "level_label": "初级",
+      "title": "Italy Denies US Use of Air Base for West Asia Operations",
+      "title_cn": "意大利拒绝美国使用空军基地参与西亚军事行动",
+      "topic": "国际 / 外交",
+      "word_count": 420,
+      "reading_time": 3,
+      "source": "Reuters / Indian Express",
+      "publish_time": "2026-04-01T06:00:00Z"
+    },
+    {
+      "id": "20260401-2",
+      "level": "intermediate",
+      "level_label": "中级",
+      "title": "Airlines Raise Fuel Surcharges as Middle East Crisis Drives Oil Prices Higher",
+      "title_cn": "中东危机推高油价，航空公司上调燃油附加费",
+      "topic": "商业 / 航空",
+      "word_count": 650,
+      "reading_time": 5,
+      "source": "Caixin / NZ Herald",
+      "publish_time": "2026-04-01T08:00:00+08:00"
+    },
+    {
+      "id": "20260401-3",
+      "level": "advanced",
+      "level_label": "进阶",
+      "title": "Trump to Deliver 'Important Update' on Iran as 'Liberation Day' Tariffs Loom",
+      "title_cn": "特朗普将就伊朗问题发布"重要更新"，"解放日"关税即将生效",
+      "topic": "政治 / 地缘",
+      "word_count": 880,
+      "reading_time": 7,
+      "source": "Xinhua / Various",
+      "publish_time": "2026-04-01T09:00:00+08:00"
+    }
+  ],
+  "total_word_count": 1950,
+  "created_at": "2026-04-01T13:30:00+08:00",
+  "status": "completed"
+}
