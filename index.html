@@ -255,11 +255,12 @@
                                 <h3 class="card-title">${article.title}</h3>
                                 <p class="card-subtitle">${article.title_cn}</p>
                                 <div class="card-meta">
-                                    <span>📰 ${article.source.name}</span>
+                                    <span>📰 ${article.source}</span>
                                     <span>⏱️ ${article.reading_time}分钟 · 📝 ${article.word_count}词</span>
                                 </div>
                                 <div class="tags">
-                                    ${article.hot_tags.slice(0, 3).map(tag => `<span class="tag">#${tag}</span>`).join('')}
+                                    <span class="tag">#${article.topic.split(' / ')[0]}</span>
+                                    <span class="tag">#${article.topic.split(' / ')[1] || '热点'}</span>
                                 </div>
                                 <div class="read-more">开始学习 →</div>
                             </div>
