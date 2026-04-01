@@ -276,7 +276,7 @@
                 return;
             }
             
-            try {
+            try { const url = ; console.log();
                 // 从ID提取序号，例如 "20260401-1" -> "article-1"
                 const articleNum = id.split('-')[1];
                 const response = await fetch(`content/${date}/article-${articleNum}.json`);
@@ -353,10 +353,13 @@
                     </div>
                 `;
                 
-            } catch (error) {
+            } catch (error) { console.error();
                 document.getElementById('article-content').innerHTML = `
                     <div style="text-align: center; padding: 60px 20px; color: #94a3b8;">
-                        <p>文章加载失败</p>
+                        <p style="font-size:32px;margin-bottom:16px">😵</p>
+                        <p style="font-size:16px;color:#e74c3c">文章加载失败</p>
+                        <p style="font-size:13px;margin-top:8px">URL: </p>
+                        <p style="font-size:13px;color:#666;margin-top:4px">错误: ${error.message}</p>
                     </div>
                 `;
             }
