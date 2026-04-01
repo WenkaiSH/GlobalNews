@@ -286,13 +286,15 @@
                 document.getElementById('article-level').innerHTML = 
                     `<span class="level-badge ${level.bg}">${level.label}</span>`;
                 
-                const sentencesHtml = article.content.sentences.map(s => `
+                // 将content按段落分割，与translation对应
+                const paragraphs = article.content.split('\n\n').filter(p => p.trim());
+                const sentencesHtml = paragraphs.map((p, i) => `
                     <div class="sentence">
                         <div class="sentence-header">
-                            <span class="sentence-number">${s.index}</span>
+                            <span class="sentence-number">${i + 1}</span>
                             <div class="sentence-content">
-                                <p class="sentence-english">${s.text}</p>
-                                <p class="sentence-chinese">${s.translation}</p>
+                                <p class="sentence-english">${p}</p>
+                                <p class="sentence-chinese">${article.translation[i] || ''}</p>
                             </div>
                         </div>
                     </div>
@@ -306,18 +308,17 @@
                                 <span class="vocab-phonetic">${v.phonetic}</span>
                                 <span class="vocab-pos">${v.pos}</span>
                             </div>
-                            <span class="vocab-level">${v.level}</span>
                         </div>
                         <p class="vocab-meaning">${v.meaning}</p>
                         <div class="vocab-example">"${v.example}"</div>
-                        ${v.synonyms.length > 0 ? `<div class="vocab-synonyms">同义词: ${v.synonyms.join(', ')}</div>` : ''}
+                        ${v.synonyms ? `<div class="vocab-synonyms">同义词: ${v.synonyms.join(', ')}</div>` : ''}
                     </div>
                 `).join('');
                 
                 document.getElementById('article-content').innerHTML = `
                     <div class="article-header">
                         <div class="article-meta">
-                            <span>📰 ${article.source.name}</span>
+                            <span>📰 ${article.source}</span>
                             <span>·</span>
                             <span>${article.topic}</span>
                             <span>·</span>
@@ -330,10 +331,11 @@
                         <p class="article-subtitle">${article.title_cn}</p>
                         
                         <div class="article-tags">
-                            ${article.hot_tags.map(tag => `<span class="article-tag">#${tag}</span>`).join('')}
+                            <span class="article-tag">#${article.topic.split(' / ')[0]}</span>
+                            <span class="article-tag">#${article.topic.split(' / ')[1] || '热点'}</span>
                         </div>
                         
-                        <a href="${article.source.url}" target="_blank" class="source-link">
+                        <a href="${article.source_url}" target="_blank" class="source-link">
                             📎 查看原文
                         </a>
                     </div>
