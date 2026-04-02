@@ -1,0 +1,98 @@
+{
+  "id": "20260402-2",
+  "date": "2026-04-02",
+  "level": "intermediate",
+  "level_label": "中级",
+  "title": "One Year After 'Liberation Day': Trump's Tariffs Reshape Global Trade",
+  "title_cn": ""解放日"一年后：特朗普关税重塑全球贸易",
+  "source": "Reuters / Yahoo Finance",
+  "source_url": "https://finance.yahoo.com/news/live/trump-tariffs-live-updates",
+  "topic": "经济 / 贸易",
+  "word_count": 720,
+  "reading_time": 6,
+  "content": "April 2 marks the one-year anniversary of former President Donald Trump's \"Liberation Day\" tariff announcement, a policy shift that fundamentally changed global trade. On this day in 2025, Trump ordered sweeping tariffs on imports from U.S. trade partners, forever altering how businesses navigate international commerce.\\n\\nThe Trump administration is now preparing to announce a tiered system for its broad tariffs on steel and aluminum products. The new system will maintain 50% tariffs on many derivative products while lowering duties to 25% or below for other goods. This change comes after months of complaints from American companies about the difficulty of calculating charges under the previous system.\\n\\nMeanwhile, the European Union voted on Thursday to advance the U.S.-EU trade deal, known as the Turnberry agreement. EU lawmakers adopted the framework that Trump and EU Commission President Ursula von der Leyen reached last August. Under the agreement, Europe will remove tariffs on many U.S. goods including aircraft, chemicals, and agricultural products. In exchange, the U.S. will impose a 15% rate on many European imports while maintaining 50% duties on steel and aluminum.\\n\\nThe deal also requires the EU to spend $750 billion on U.S. energy products by 2028. Implementation had been halted in January after the Supreme Court struck down some of Trump's tariffs. The new deal includes safeguards: a suspension clause if the U.S. introduces new tariffs above 15%, and a sunrise clause that expires in March 2028 unless extended.\\n\\nIn another development, more than 2,000 companies including Costco and FedEx have filed lawsuits seeking compensation for tariffs. A federal judge ruled that the U.S. government must begin paying out more than $130 billion in tariff refunds to American businesses. The Supreme Court had previously struck down Trump's use of emergency economic powers to impose tariffs.\\n\\nThe trade war's impact continues to ripple through the global economy. A European Central Bank study found that U.S. consumers and importers take the vast majority of the financial hit from tariffs, not exporters as the Trump administration had predicted. Trade volumes also suffer, creating negative shocks for exporters as well.\\n\\nCurrently, the U.S. has imposed 10% tariffs on countries around the globe for 150 days, which could rise to 15%. The administration announced two new trade investigations in March, scrutinizing 60 countries under Section 301 of the Trade Act of 1974. China mirrored this move by opening investigations into U.S. trade practices.",
+  "translation": [
+    {
+      "en": "April 2 marks the one-year anniversary of former President Donald Trump's \"Liberation Day\" tariff announcement.",
+      "cn": "4月2日是前总统唐纳德·特朗普"解放日"关税宣布一周年纪念日。"
+    },
+    {
+      "en": "On this day in 2025, Trump ordered sweeping tariffs on imports from U.S. trade partners, forever altering how businesses navigate international commerce.",
+      "cn": "2025年的这一天，特朗普下令对来自美国的贸易伙伴的进口商品征收全面关税，永远改变了企业开展国际贸易的方式。"
+    },
+    {
+      "en": "The new system will maintain 50% tariffs on many derivative products while lowering duties to 25% or below for other goods.",
+      "cn": "新系统将对许多衍生产品维持50%的关税，同时将对其他商品的关税降至25%或以下。"
+    },
+    {
+      "en": "The European Union voted on Thursday to advance the U.S.-EU trade deal, known as the Turnberry agreement.",
+      "cn": "欧盟周四投票推进美欧贸易协议，即所谓的特恩贝里协议。"
+    },
+    {
+      "en": "Under the agreement, Europe will remove tariffs on many U.S. goods including aircraft, chemicals, and agricultural products.",
+      "cn": "根据协议，欧洲将取消对许多美国商品的关税，包括飞机、化学品和农产品。"
+    },
+    {
+      "en": "The deal also requires the EU to spend $750 billion on U.S. energy products by 2028.",
+      "cn": "该协议还要求欧盟在2028年前在美国能源产品上花费7500亿美元。"
+    },
+    {
+      "en": "More than 2,000 companies including Costco and FedEx have filed lawsuits seeking compensation for tariffs.",
+      "cn": "包括好市多和联邦快递在内的2000多家公司已提起诉讼，要求赔偿关税损失。"
+    },
+    {
+      "en": "A European Central Bank study found that U.S. consumers and importers take the vast majority of the financial hit from tariffs.",
+      "cn": "欧洲央行的一项研究发现，美国消费者和进口商承担了关税带来的绝大部分经济损失。"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "tariff",
+      "phonetic": "/ˈtærɪf/",
+      "pos": "noun",
+      "meaning": "关税",
+      "example": "The government imposed a 25% tariff on imported steel.",
+      "synonyms": ["duty", "tax", "levy"]
+    },
+    {
+      "word": "sweeping",
+      "phonetic": "/ˈswiːpɪŋ/",
+      "pos": "adjective",
+      "meaning": "全面的，影响广泛的",
+      "example": "The new law brought sweeping changes to the education system.",
+      "synonyms": ["comprehensive", "extensive", "broad"]
+    },
+    {
+      "word": "implement",
+      "phonetic": "/ˈɪmplɪment/",
+      "pos": "verb",
+      "meaning": "实施，执行",
+      "example": "The company plans to implement the new policy next month.",
+      "synonyms": ["execute", "enforce", "carry out"]
+    },
+    {
+      "word": "safeguard",
+      "phonetic": "/ˈseɪfɡɑːrd/",
+      "pos": "noun/verb",
+      "meaning": "保障措施；保护",
+      "example": "The contract includes safeguards to protect both parties.",
+      "synonyms": ["protection", "guarantee", "security"]
+    },
+    {
+      "word": "compensation",
+      "phonetic": "/ˌkɒmpenˈseɪʃn/",
+      "pos": "noun",
+      "meaning": "赔偿，补偿",
+      "example": "The workers received compensation for their injuries.",
+      "synonyms": ["payment", "reimbursement", "damages"]
+    },
+    {
+      "word": "ripple effect",
+      "phonetic": "/ˈrɪpl ɪˈfekt/",
+      "pos": "noun phrase",
+      "meaning": "连锁反应，涟漪效应",
+      "example": "The factory closure had a ripple effect on the local economy.",
+      "synonyms": ["chain reaction", "knock-on effect", "spillover"]
+    }
+  ]
+}

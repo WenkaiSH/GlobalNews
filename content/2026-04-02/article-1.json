@@ -1,0 +1,86 @@
+{
+  "id": "20260402-1",
+  "date": "2026-04-02",
+  "level": "beginner",
+  "level_label": "初级",
+  "title": "February 2026 Was Earth's Fifth-Warmest on Record",
+  "title_cn": "2026年2月是全球有记录以来第五热的2月",
+  "source": "Yale Climate Connections / NOAA",
+  "source_url": "https://yaleclimateconnections.org/2026/03/february-2026-was-earths-fifth-warmest-february-on-record/",
+  "topic": "环境 / 气候",
+  "word_count": 480,
+  "reading_time": 4,
+  "content": "February 2026 was the world's fifth-warmest February in analyses of global weather data going back to 1850. Scientists from NOAA's National Centers for Environmental Information reported this finding on March 11. The European Copernicus Climate Change Service also rated February 2026 as the fifth-warmest on record.\\n\\nThe global-average temperature for December 2025 to February 2026 was the fifth-highest on record. This happened even though there was no El Niño event, which usually makes temperatures warmer.\\n\\nGlobal land areas had their sixth-warmest February on record in 2026. Global oceans had their second-warmest February. The oceans were only 0.16 degrees Celsius below the record set in 2024.\\n\\nAfrica had its second-warmest February. South America and Asia experienced their seventh- and eighth-warmest February. North America, Europe, Oceania, the Arctic, and the Antarctic all experienced above-average temperatures.\\n\\nSnow cover in February was well below average over the Western United States and much of Asia and Europe. Overall, Northern Hemisphere snow cover during February 2026 was the third-lowest since records began in 1967.\\n\\nIn the United States, winter 2025-26 was the second-warmest and fifth-driest on record. February was the fourth-warmest and fifth-driest February. About 55% of the continental U.S. was in drought at the beginning of March.",
+  "translation": [
+    {
+      "en": "February 2026 was the world's fifth-warmest February in analyses of global weather data going back to 1850.",
+      "cn": "根据追溯至1850年的全球天气数据分析，2026年2月是全球第五热的2月。"
+    },
+    {
+      "en": "Scientists from NOAA's National Centers for Environmental Information reported this finding on March 11.",
+      "cn": "美国国家海洋和大气管理局国家环境信息中心的科学家于3月11日报告了这一发现。"
+    },
+    {
+      "en": "The global-average temperature for December 2025 to February 2026 was the fifth-highest on record.",
+      "cn": "2025年12月至2026年2月的全球平均气温是有记录以来第五高的。"
+    },
+    {
+      "en": "This happened even though there was no El Niño event, which usually makes temperatures warmer.",
+      "cn": "这一情况发生在没有厄尔尼诺现象的情况下，而厄尔尼诺通常会使气温升高。"
+    },
+    {
+      "en": "Global oceans had their second-warmest February, only 0.16 degrees Celsius below the record set in 2024.",
+      "cn": "全球海洋经历了第二热的2月，仅比2024年创下的纪录低0.16摄氏度。"
+    },
+    {
+      "en": "Snow cover was well below average over the Western United States and much of Asia and Europe.",
+      "cn": "美国西部以及亚洲和欧洲大部分地区的积雪覆盖远低于平均水平。"
+    },
+    {
+      "en": "About 55% of the continental U.S. was in drought at the beginning of March.",
+      "cn": "3月初，美国大陆约55%的地区处于干旱状态。"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "analysis",
+      "phonetic": "/əˈnæləsɪs/",
+      "pos": "noun",
+      "meaning": "分析",
+      "example": "The analysis of the data took three weeks.",
+      "synonyms": ["examination", "study", "investigation"]
+    },
+    {
+      "word": "record",
+      "phonetic": "/ˈrekɔːrd/",
+      "pos": "noun",
+      "meaning": "纪录",
+      "example": "She broke the world record in swimming.",
+      "synonyms": ["best performance", "history"]
+    },
+    {
+      "word": "average",
+      "phonetic": "/ˈævərɪdʒ/",
+      "pos": "adjective/noun",
+      "meaning": "平均的；平均数",
+      "example": "The average temperature in July is 30 degrees.",
+      "synonyms": ["mean", "typical", "standard"]
+    },
+    {
+      "word": "drought",
+      "phonetic": "/draʊt/",
+      "pos": "noun",
+      "meaning": "干旱",
+      "example": "The drought destroyed most of the crops.",
+      "synonyms": ["dry spell", "water shortage"]
+    },
+    {
+      "word": "temperature",
+      "phonetic": "/ˈtemprətʃər/",
+      "pos": "noun",
+      "meaning": "温度",
+      "example": "The temperature dropped below zero last night.",
+      "synonyms": ["heat", "warmth"]
+    }
+  ]
+}
