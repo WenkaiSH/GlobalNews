@@ -284,14 +284,14 @@
                 document.getElementById('article-level').innerHTML = 
                     `<span class="level-badge ${level.bg}">${level.label}</span>`;
                 
-                const paragraphs = article.content.split('\n\n').filter(p => p.trim());
-                const sentencesHtml = paragraphs.map((p, i) => `
+                // 使用translation数组实现逐句中英对照
+                const sentencesHtml = article.translation.map((item, i) => `
                     <div class="sentence">
                         <div class="sentence-header">
                             <span class="sentence-number">${i + 1}</span>
                             <div class="sentence-content">
-                                <p class="sentence-english">${p}</p>
-                                <p class="sentence-chinese">${article.translation[i] || ''}</p>
+                                <p class="sentence-english">${item.en}</p>
+                                <p class="sentence-chinese">${item.cn}</p>
                             </div>
                         </div>
                     </div>
