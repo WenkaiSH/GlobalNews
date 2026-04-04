@@ -13,7 +13,6 @@
         }
         .container { max-width: 800px; margin: 0 auto; padding: 20px; }
         
-        /* Header */
         header {
             background: white;
             border-bottom: 1px solid #e2e8f0;
@@ -39,7 +38,6 @@
         }
         .back-link:hover { color: #2563eb; }
         
-        /* Article Header */
         .article-header {
             background: white;
             border-radius: 16px;
@@ -92,7 +90,6 @@
             color: #64748b;
         }
         
-        /* Content Section */
         .content-section {
             background: white;
             border-radius: 16px;
@@ -110,7 +107,6 @@
             gap: 8px;
         }
         
-        /* Sentences */
         .sentence {
             padding: 20px;
             border-radius: 12px;
@@ -151,7 +147,6 @@
             padding-left: 12px;
         }
         
-        /* Vocabulary */
         .vocab-item {
             padding: 20px;
             border-radius: 12px;
@@ -183,13 +178,6 @@
             color: #64748b;
             margin-left: 8px;
         }
-        .vocab-level {
-            background: #dbeafe;
-            color: #2563eb;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 11px;
-        }
         .vocab-meaning {
             color: #374151;
             margin-bottom: 12px;
@@ -208,7 +196,6 @@
             color: #94a3b8;
         }
         
-        /* Footer */
         footer {
             background: white;
             border-top: 1px solid #e2e8f0;
@@ -219,7 +206,6 @@
         footer a { color: #2563eb; text-decoration: none; }
         footer p { color: #94a3b8; font-size: 14px; }
         
-        /* Source Link */
         .source-link {
             display: inline-flex;
             align-items: center;
@@ -272,44 +258,32 @@
             const date = params.get('date');
             
             if (!id || !date) {
-                document.getElementById('article-content').innerHTML = '<p style="text-align:center;padding:60px;color:#e74c3c">文章参数错误，缺少 id 或 date</p>';
+                document.getElementById('article-content').innerHTML = 
+                    '<p style="text-align:center;padding:60px;color:#e74c3c">文章参数错误，缺少 id 或 date</p>';
                 return;
             }
             
-            const url = `content/${date}/article-${id.split('-')[1]}.json`;
-            console.log('[DEBUG] 开始加载:', url);
-            document.getElementById('article-content').innerHTML = '<p style="text-align:center;padding:60px;color:#94a3b8">加载中: ' + url + '</p>';
+            const articleNum = id.split('-')[1];
+            const url = `content/${date}/article-${articleNum}.json`;
+            
+            document.getElementById('article-content').innerHTML = 
+                `<div style="text-align:center;padding:60px;color:#94a3b8">
+                    <p>加载中...</p>
+                    <p style="font-size:12px;margin-top:8px">${url}</p>
+                 </div>`;
             
             try {
-                const controller = new AbortController();
-                const tid = setTimeout(() => controller.abort(), 15000);
-                const response = await fetch(url, { signal: controller.signal });
-                clearTimeout(tid);
-                console.log('[DEBUG] fetch完成, status:', response.status);
-                if (!response.ok) throw new Error('HTTP ' + response.status);
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
                 
-                 = new URLSearchParams(window.location.search);
-            const id = params.get('id');
-            const date = params.get('date');
-            
-            if (!id || !date) {
-                document.getElementById('article-content').innerHTML = '<p>文章参数错误</p>';
-                return;
-            }
-            
-            try { const url = ; console.log();
-                // 从ID提取序号，例如 "20260401-1" -> "article-1"
-                const articleNum = id.split('-')[1];
-                const response = await fetch(`content/${date}/article-${articleNum}.json`);
-                
-                
-                
+                const article = await response.json();
                 const level = levelMap[article.level];
                 
                 document.getElementById('article-level').innerHTML = 
                     `<span class="level-badge ${level.bg}">${level.label}</span>`;
                 
-                // 将content按段落分割，与translation对应
                 const paragraphs = article.content.split('\n\n').filter(p => p.trim());
                 const sentencesHtml = paragraphs.map((p, i) => `
                     <div class="sentence">
@@ -328,12 +302,12 @@
                         <div class="vocab-header">
                             <div>
                                 <span class="vocab-word">${v.word}</span>
-                                <span class="vocab-phonetic">${v.phonetic}</span>
-                                <span class="vocab-pos">${v.pos}</span>
+                                <span class="vocab-phonetic">${v.phonetic || ''}</span>
+                                <span class="vocab-pos">${v.pos || ''}</span>
                             </div>
                         </div>
                         <p class="vocab-meaning">${v.meaning}</p>
-                        <div class="vocab-example">"${v.example}"</div>
+                        <div class="vocab-example">"${v.example || ''}"</div>
                         ${v.synonyms ? `<div class="vocab-synonyms">同义词: ${v.synonyms.join(', ')}</div>` : ''}
                     </div>
                 `).join('');
@@ -374,13 +348,15 @@
                     </div>
                 `;
                 
-            } catch (error) { console.error();
+            } catch (error) {
+                console.error('加载文章失败:', error);
                 document.getElementById('article-content').innerHTML = `
-                    <div style="text-align: center; padding: 60px 20px; color: #94a3b8;">
+                    <div style="text-align: center; padding: 60px 20px;">
                         <p style="font-size:32px;margin-bottom:16px">😵</p>
                         <p style="font-size:16px;color:#e74c3c">文章加载失败</p>
-                        <p style="font-size:13px;margin-top:8px">URL: </p>
-                        <p style="font-size:13px;color:#666;margin-top:4px">错误: ${error.message}</p>
+                        <p style="font-size:13px;margin-top:8px;color:#94a3b8">URL: ${url}</p>
+                        <p style="font-size:13px;color:#666;margin-top:4px">${error.message}</p>
+                        <button onclick="location.reload()" style="margin-top:16px;padding:8px 16px;background:#2563eb;color:white;border:none;border-radius:8px;cursor:pointer">重试</button>
                     </div>
                 `;
             }
