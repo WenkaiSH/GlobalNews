@@ -1,0 +1,95 @@
+{
+  "id": "20260404-1",
+  "date": "2026-04-04",
+  "level": "beginner",
+  "level_label": "初级",
+  "title": "US F-15E Fighter Jet Shot Down Over Iran",
+  "title_cn": "美国F-15E战斗机在伊朗被击落",
+  "source": "Nomad Lawyer / CBS News",
+  "source_url": "https://nomadlawyer.org/breaking-shot-down-f15-iran-april-2026",
+  "topic": "国际新闻 / 军事冲突",
+  "word_count": 520,
+  "reading_time": 5,
+  "content": "On Friday, April 3, 2026, a US F-15E Strike Eagle fighter jet was shot down over Iranian airspace. This is the first time an American fighter jet has been downed by enemy fire in more than 20 years.\n\nThe F-15E is a twin-engine tactical aircraft operated by the US Air Force. It has a two-person crew: a pilot and a weapons systems officer. The jet was on a combat mission when it encountered hostile fire from Iranian surface-to-air defense systems.\n\nUS officials confirmed that one crew member was rescued by American special forces. The rescue operation involved helicopters and transport aircraft. However, the second crew member remains missing. Search and rescue teams are still working to find the missing airman.\n\nIranian officials mocked the incident on social media. Mohammad Bagher Ghalibaf, Iran's parliamentary speaker, wrote that the US war strategy had been \"downgraded from regime change to 'Hey! Can anyone find our pilots?'\"\n\nIranian state television announced a reward for anyone who captures the missing crew member alive. This has raised tensions between the two countries even higher.\n\nThe incident has also affected commercial aviation. Many airlines have changed their flight routes to avoid Iranian airspace. The US Federal Aviation Administration issued warnings about flying in the region.\n\nThe last time a US fighter jet was shot down in combat was during the 2003 invasion of Iraq. Military experts say the loss of the F-15E shows that flying combat missions remains dangerous, even with advanced technology.",
+  "translation": [
+    {"en": "On Friday, April 3, 2026, a US F-15E Strike Eagle fighter jet was shot down over Iranian airspace.", "cn": "2026年4月3日星期五，一架美国F-15E攻击鹰战斗机在伊朗领空被击落。"},
+    {"en": "This is the first time an American fighter jet has been downed by enemy fire in more than 20 years.", "cn": "这是20多年来美国战斗机首次被敌方火力击落。"},
+    {"en": "The F-15E is a twin-engine tactical aircraft operated by the US Air Force.", "cn": "F-15E是美国空军操作的双引擎战术飞机。"},
+    {"en": "It has a two-person crew: a pilot and a weapons systems officer.", "cn": "它有两名机组人员：一名飞行员和一名武器系统军官。"},
+    {"en": "The jet was on a combat mission when it encountered hostile fire from Iranian surface-to-air defense systems.", "cn": "这架战机在执行战斗任务时遭遇伊朗地对空防御系统的火力攻击。"},
+    {"en": "US officials confirmed that one crew member was rescued by American special forces.", "cn": "美国官员证实，一名机组人员被美国特种部队救出。"},
+    {"en": "The rescue operation involved helicopters and transport aircraft.", "cn": "救援行动动用了直升机和运输机。"},
+    {"en": "However, the second crew member remains missing.", "cn": "然而，第二名机组人员仍然失踪。"},
+    {"en": "Search and rescue teams are still working to find the missing airman.", "cn": "搜救队仍在努力寻找失踪的飞行员。"},
+    {"en": "Iranian officials mocked the incident on social media.", "cn": "伊朗官员在社交媒体上嘲笑这一事件。"},
+    {"en": "Iranian state television announced a reward for anyone who captures the missing crew member alive.", "cn": "伊朗国家电视台宣布，任何活捉失踪机组人员的人将获得奖励。"},
+    {"en": "Many airlines have changed their flight routes to avoid Iranian airspace.", "cn": "许多航空公司已更改航线以避开伊朗领空。"},
+    {"en": "Military experts say the loss of the F-15E shows that flying combat missions remains dangerous, even with advanced technology.", "cn": "军事专家表示，F-15E的损失表明，即使有先进技术，执行战斗任务仍然很危险。"}
+  ],
+  "vocabulary": [
+    {
+      "word": "fighter jet",
+      "phonetic": "/ˈfaɪtər dʒet/",
+      "pos": "noun",
+      "meaning": "战斗机",
+      "example": "The F-15E is a powerful fighter jet used by the US Air Force.",
+      "synonyms": ["warplane", "combat aircraft"]
+    },
+    {
+      "word": "airspace",
+      "phonetic": "/ˈerspeɪs/",
+      "pos": "noun",
+      "meaning": "领空",
+      "example": "The jet was shot down over Iranian airspace.",
+      "synonyms": ["air territory", "sky space"]
+    },
+    {
+      "word": "crew",
+      "phonetic": "/kruː/",
+      "pos": "noun",
+      "meaning": "机组人员",
+      "example": "The aircraft has a two-person crew.",
+      "synonyms": ["personnel", "team", "staff"]
+    },
+    {
+      "word": "rescue",
+      "phonetic": "/ˈreskjuː/",
+      "pos": "verb/noun",
+      "meaning": "营救，救援",
+      "example": "One crew member was rescued by special forces.",
+      "synonyms": ["save", "recover", "retrieve"]
+    },
+    {
+      "word": "hostile",
+      "phonetic": "/ˈhɒstaɪl/",
+      "pos": "adjective",
+      "meaning": "敌对的，敌意的",
+      "example": "The plane encountered hostile fire during the mission.",
+      "synonyms": ["enemy", "aggressive", "unfriendly"]
+    },
+    {
+      "word": "surface-to-air",
+      "phonetic": "/ˈsɜːrfɪs tu er/",
+      "pos": "adjective",
+      "meaning": "地对空的",
+      "example": "The jet was hit by surface-to-air missiles.",
+      "synonyms": ["ground-to-air", "anti-aircraft"]
+    },
+    {
+      "word": "mock",
+      "phonetic": "/mɒk/",
+      "pos": "verb",
+      "meaning": "嘲笑，嘲讽",
+      "example": "Iranian officials mocked the incident on social media.",
+      "synonyms": ["ridicule", "make fun of", "deride"]
+    },
+    {
+      "word": "aviation",
+      "phonetic": "/ˌeɪviˈeɪʃn/",
+      "pos": "noun",
+      "meaning": "航空，飞行",
+      "example": "The incident has affected commercial aviation in the region.",
+      "synonyms": ["flying", "air travel", "aeronautics"]
+    }
+  ]
+}

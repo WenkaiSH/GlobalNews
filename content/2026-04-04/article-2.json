@@ -1,0 +1,108 @@
+{
+  "id": "20260404-2",
+  "date": "2026-04-04",
+  "level": "intermediate",
+  "level_label": "中级",
+  "title": "Trump Tariffs and Global Stock Market Reaction",
+  "title_cn": "特朗普关税政策与全球股市反应",
+  "source": "U.S. Bank / Fisher Investments / UNCTAD",
+  "source_url": "https://www.usbank.com/investing/financial-perspectives/market-news/stock-market-under-trump.html",
+  "topic": "经济金融 / 国际贸易",
+  "word_count": 780,
+  "reading_time": 8,
+  "content": "President Donald Trump's tariff policies have become one of the most significant drivers of market volatility in 2025 and 2026. Understanding how these tariffs work and why markets react the way they do is essential for investors navigating today's complex financial landscape.\n\nOn April 2, 2025, dubbed \"Liberation Day\" by the administration, Trump announced sweeping tariff measures that fundamentally altered global trade. The policy introduced a universal 10% baseline tariff on all US imports, plus additional \"reciprocal tariffs\" of up to 50% on countries with trade imbalances against the United States. The immediate market reaction was severe: the S&P 500 fell nearly 20% in just seven weeks.\n\nHowever, markets are adaptive. Following the initial shock, stocks rebounded 32% from their April 8 low as investors realized businesses could adjust to the new environment. This pattern of sharp decline followed by gradual recovery has characterized market responses to tariff announcements throughout 2025 and early 2026.\n\nTariffs function as taxes on imported goods. When the US imposes tariffs on foreign products, those products become more expensive for American consumers and businesses. The stated goal of Trump's tariff policy is to protect domestic industries and encourage companies to manufacture goods within the United States. This \"America First\" approach aims to reduce trade deficits and create manufacturing jobs.\n\nYet the economic reality is more complex. According to research by economists at the New York Federal Reserve, tariffs implemented during Trump's first term actually increased costs for many domestic manufacturers. Companies that relied on imported materials faced higher input costs, which negatively impacted their productivity, employment, and profits between 2019 and 2021.\n\nThe stock market's sensitivity to tariff news reflects investor concerns about corporate earnings. When tariffs threaten to raise costs or disrupt supply chains, investors worry that company profits will suffer. This concern is amplified when valuations are already stretched, as they were entering 2026.\n\nDifferent sectors experience tariffs differently. Industries that rely heavily on imported materials, such as automotive manufacturing and electronics, tend to suffer when tariffs increase. Conversely, domestic steel and aluminum producers may benefit from reduced foreign competition. This creates what analysts call \"sector rotation,\" where money moves from vulnerable industries to protected ones.\n\nInternational markets have also been affected. Export-driven economies in Asia and Europe face particular pressure when US tariffs reduce demand for their goods. Emerging markets often experience capital outflows during trade tensions as investors seek safer assets.\n\nThe concept of \"regime uncertainty\" helps explain why tariffs cause such market turbulence. When trade rules change suddenly and unpredictably, businesses struggle to plan for the future. Investment decisions get delayed, supply chains must be reconfigured, and consumer confidence may waver. All of these factors can slow economic growth.\n\nBy early 2026, markets had largely priced in the tariff environment. The S&P 500 reached new highs despite ongoing trade tensions, suggesting that investors had adjusted their expectations. However, new developments, such as the Supreme Court's February 2026 ruling on tariff legality, continue to create uncertainty.\n\nFor individual investors, the lesson is clear: reacting to every headline can be counterproductive. Those who maintained diversified portfolios and avoided panic selling during the \"Liberation Day\" selloff were rewarded as markets recovered. Understanding the mechanics of tariffs and their real economic impacts helps investors distinguish between temporary volatility and lasting fundamental changes.",
+  "translation": [
+    {"en": "President Donald Trump's tariff policies have become one of the most significant drivers of market volatility in 2025 and 2026.", "cn": "唐纳德·特朗普总统的关税政策已成为2025年和2026年市场波动最重要的驱动因素之一。"},
+    {"en": "On April 2, 2025, dubbed 'Liberation Day' by the administration, Trump announced sweeping tariff measures that fundamentally altered global trade.", "cn": "2025年4月2日，被政府称为'解放日'，特朗普宣布了从根本上改变全球贸易的全面关税措施。"},
+    {"en": "The policy introduced a universal 10% baseline tariff on all US imports, plus additional 'reciprocal tariffs' of up to 50% on countries with trade imbalances.", "cn": "该政策对所有美国进口商品征收10%的普遍基础关税，另外对存在贸易逆差的国家征收高达50%的'互惠关税'。"},
+    {"en": "The immediate market reaction was severe: the S&P 500 fell nearly 20% in just seven weeks.", "cn": "市场的即时反应很剧烈：标普500指数在短短七周内下跌了近20%。"},
+    {"en": "Tariffs function as taxes on imported goods.", "cn": "关税本质上是对进口商品征收的税。"},
+    {"en": "According to research by economists at the New York Federal Reserve, tariffs actually increased costs for many domestic manufacturers.", "cn": "根据纽约联邦储备银行经济学家的研究，关税实际上增加了许多国内制造商的成本。"},
+    {"en": "Different sectors experience tariffs differently.", "cn": "不同行业受到关税的影响各不相同。"},
+    {"en": "The concept of 'regime uncertainty' helps explain why tariffs cause such market turbulence.", "cn": "'制度不确定性'这一概念有助于解释为什么关税会引起如此大的市场动荡。"},
+    {"en": "For individual investors, the lesson is clear: reacting to every headline can be counterproductive.", "cn": "对散户投资者而言，教训很明确：对每条新闻头条做出反应可能适得其反。"},
+    {"en": "Understanding the mechanics of tariffs and their real economic impacts helps investors distinguish between temporary volatility and lasting fundamental changes.", "cn": "理解关税的运作机制及其对经济的真实影响，有助于投资者区分暂时性波动和持久的基本面变化。"}
+  ],
+  "vocabulary": [
+    {
+      "word": "volatility",
+      "phonetic": "/ˌvɒləˈtɪləti/",
+      "pos": "noun",
+      "meaning": "波动性，不稳定",
+      "example": "Tariff announcements have caused significant market volatility.",
+      "synonyms": ["instability", "fluctuation", "unpredictability"]
+    },
+    {
+      "word": "tariff",
+      "phonetic": "/ˈtærɪf/",
+      "pos": "noun",
+      "meaning": "关税",
+      "example": "The government imposed new tariffs on imported steel.",
+      "synonyms": ["duty", "tax", "levy"]
+    },
+    {
+      "word": "trade deficit",
+      "phonetic": "/treɪd ˈdefɪsɪt/",
+      "pos": "noun phrase",
+      "meaning": "贸易逆差",
+      "example": "The US has a large trade deficit with China.",
+      "synonyms": ["trade gap", "trade imbalance"]
+    },
+    {
+      "word": "supply chain",
+      "phonetic": "/səˈplaɪ tʃeɪn/",
+      "pos": "noun phrase",
+      "meaning": "供应链",
+      "example": "Tariffs can disrupt global supply chains.",
+      "synonyms": ["distribution network", "logistics chain"]
+    },
+    {
+      "word": "sector rotation",
+      "phonetic": "/ˈsektər roʊˈteɪʃn/",
+      "pos": "noun phrase",
+      "meaning": "行业轮动，板块轮换",
+      "example": "Tariff news often triggers sector rotation in the stock market.",
+      "synonyms": ["industry shift", "sector movement"]
+    },
+    {
+      "word": "valuation",
+      "phonetic": "/ˌvæljuˈeɪʃn/",
+      "pos": "noun",
+      "meaning": "估值",
+      "example": "Stock valuations were stretched entering 2026.",
+      "synonyms": ["appraisal", "assessment", "pricing"]
+    },
+    {
+      "word": "reconfigure",
+      "phonetic": "/ˌriːkənˈfɪɡər/",
+      "pos": "verb",
+      "meaning": "重新配置，调整",
+      "example": "Companies must reconfigure their supply chains due to tariffs.",
+      "synonyms": ["reorganize", "restructure", "readjust"]
+    },
+    {
+      "word": "counterproductive",
+      "phonetic": "/ˌkaʊntərprəˈdʌktɪv/",
+      "pos": "adjective",
+      "meaning": "适得其反的，事与愿违的",
+      "example": "Panic selling during market downturns is often counterproductive.",
+      "synonyms": ["harmful", "detrimental", "self-defeating"]
+    },
+    {
+      "word": "reciprocal",
+      "phonetic": "/rɪˈsɪprəkl/",
+      "pos": "adjective",
+      "meaning": "互惠的，对等的",
+      "example": "The new policy introduced reciprocal tariffs on trading partners.",
+      "synonyms": ["mutual", "exchangeable", "corresponding"]
+    },
+    {
+      "word": "diversify",
+      "phonetic": "/daɪˈvɜːrsɪfaɪ/",
+      "pos": "verb",
+      "meaning": "使多样化，分散投资",
+      "example": "Investors should diversify their portfolios to reduce risk.",
+      "synonyms": ["vary", "spread", "broaden"]
+    }
+  ]
+}

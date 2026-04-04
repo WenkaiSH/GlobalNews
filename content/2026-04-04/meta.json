@@ -1,0 +1,36 @@
+{
+  "date": "2026-04-04",
+  "total_articles": 3,
+  "articles": [
+    {
+      "id": "20260404-1",
+      "level": "beginner",
+      "level_label": "初级",
+      "title": "US F-15E Fighter Jet Shot Down Over Iran",
+      "title_cn": "美国F-15E战斗机在伊朗被击落",
+      "topic": "国际新闻 / 军事冲突",
+      "word_count": 520,
+      "file": "article-1.json"
+    },
+    {
+      "id": "20260404-2",
+      "level": "intermediate",
+      "level_label": "中级",
+      "title": "Trump Tariffs and Global Stock Market Reaction",
+      "title_cn": "特朗普关税政策与全球股市反应",
+      "topic": "经济金融 / 国际贸易",
+      "word_count": 780,
+      "file": "article-2.json"
+    },
+    {
+      "id": "20260404-3",
+      "level": "advanced",
+      "level_label": "进阶",
+      "title": "Global Trade Order Reshaped by Tariff Policies",
+      "title_cn": "关税政策重塑全球贸易秩序",
+      "topic": "全球经济 / 贸易政策分析",
+      "word_count": 1050,
+      "file": "article-3.json"
+    }
+  ]
+}
