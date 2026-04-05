@@ -213,74 +213,109 @@
     </footer>
 
     <script>
-        // 设置日期
-        const today = new Date();
-        document.getElementById('current-date').textContent = today.toLocaleDateString('zh-CN', {
-            year: 'numeric', month: 'long', day: 'numeric', weekday: 'long'
-        });
+        // 格式化日期为 YYYY-MM-DD
+        function formatDate(date) {
+            return date.toISOString().split('T')[0];
+        }
 
-        // 获取日期字符串
-        const dateStr = today.toISOString().split('T')[0];
+        // 向后查找最近的有文章的日期（最多查30天）
+        async function findLatestArticlesDate() {
+            const cacheBuster = `?v=${Date.now()}`;
+            const today = new Date();
+            
+            for (let i = 0; i < 30; i++) {
+                const checkDate = new Date(today);
+                checkDate.setDate(today.getDate() - i);
+                const dateStr = formatDate(checkDate);
+                
+                try {
+                    const response = await fetch(`content/${dateStr}/meta.json${cacheBuster}`);
+                    if (response.ok) {
+                        const meta = await response.json();
+                        if (meta.articles && meta.articles.length > 0) {
+                            return { dateStr, meta, isToday: i === 0 };
+                        }
+                    }
+                } catch (e) {
+                    // 继续检查前一天
+                }
+            }
+            return null;
+        }
 
         // 加载文章
         async function loadArticles() {
-            try {
-                // 添加随机参数绕过缓存
-                const cacheBuster = `?v=${Date.now()}`;
-                const response = await fetch(`content/${dateStr}/meta.json${cacheBuster}`);
-                if (!response.ok) throw new Error('No articles today');
-                
-                const meta = await response.json();
-                const container = document.getElementById('articles-container');
-                
-                const articles = [];
-                for (const articleMeta of meta.articles) {
+            const result = await findLatestArticlesDate();
+            const container = document.getElementById('articles-container');
+            
+            if (!result) {
+                container.innerHTML = `
+                    <div style="grid-column: 1/-1; text-align: center; padding: 60px 20px; color: #94a3b8;">
+                        <p style="font-size: 48px; margin-bottom: 16px;">📝</p>
+                        <p>暂无文章，请稍后再来...</p>
+                    </div>
+                `;
+                document.getElementById('current-date').textContent = '';
+                return;
+            }
+
+            const { dateStr, meta, isToday } = result;
+            const cacheBuster = `?v=${Date.now()}`;
+            
+            // 更新日期显示
+            const articleDate = new Date(dateStr);
+            let dateText = articleDate.toLocaleDateString('zh-CN', {
+                year: 'numeric', month: 'long', day: 'numeric', weekday: 'long'
+            });
+            if (!isToday) {
+                dateText += ' · 最新文章';
+            }
+            document.getElementById('current-date').textContent = dateText;
+            
+            // 加载文章详情
+            const articles = [];
+            for (const articleMeta of meta.articles) {
+                try {
                     const artResponse = await fetch(`content/${dateStr}/article-${articleMeta.id.split('-')[1]}.json${cacheBuster}`);
                     if (artResponse.ok) {
                         articles.push(await artResponse.json());
                     }
+                } catch (e) {
+                    // 跳过加载失败的文章
                 }
-                
-                const levelMap = {
-                    'beginner': { label: '🟢 初级', class: 'beginner', bg: 'bg-beginner' },
-                    'intermediate': { label: '🟡 中级', class: 'intermediate', bg: 'bg-intermediate' },
-                    'advanced': { label: '🔴 进阶', class: 'advanced', bg: 'bg-advanced' }
-                };
-                
-                container.innerHTML = articles.map(article => {
-                    const level = levelMap[article.level];
-                    return `
-                        <a href="article.html?id=${article.id}&date=${dateStr}" class="article-card">
-                            <div class="level-bar level-${level.class}"></div>
-                            <div class="card-body">
-                                <div class="card-header">
-                                    <span class="level-badge ${level.bg}">${level.label}</span>
-                                    <span class="topic">${article.topic}</span>
-                                </div>
-                                <h3 class="card-title">${article.title}</h3>
-                                <p class="card-subtitle">${article.title_cn}</p>
-                                <div class="card-meta">
-                                    <span>📰 ${article.source}</span>
-                                    <span>⏱️ ${article.reading_time}分钟 · 📝 ${article.word_count}词</span>
-                                </div>
-                                <div class="tags">
-                                    <span class="tag">#${article.topic.split(' / ')[0]}</span>
-                                    <span class="tag">#${article.topic.split(' / ')[1] || '热点'}</span>
-                                </div>
-                                <div class="read-more">开始学习 →</div>
-                            </div>
-                        </a>
-                    `;
-                }).join('');
-                
-            } catch (error) {
-                document.getElementById('articles-container').innerHTML = `
-                    <div style="grid-column: 1/-1; text-align: center; padding: 60px 20px; color: #94a3b8;">
-                        <p style="font-size: 48px; margin-bottom: 16px;">📝</p>
-                        <p>今日文章准备中，请稍后再来...</p>
-                    </div>
-                `;
             }
+            
+            const levelMap = {
+                'beginner': { label: '🟢 初级', class: 'beginner', bg: 'bg-beginner' },
+                'intermediate': { label: '🟡 中级', class: 'intermediate', bg: 'bg-intermediate' },
+                'advanced': { label: '🔴 进阶', class: 'advanced', bg: 'bg-advanced' }
+            };
+            
+            container.innerHTML = articles.map(article => {
+                const level = levelMap[article.level];
+                return `
+                    <a href="article.html?id=${article.id}&date=${dateStr}" class="article-card">
+                        <div class="level-bar level-${level.class}"></div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <span class="level-badge ${level.bg}">${level.label}</span>
+                                <span class="topic">${article.topic}</span>
+                            </div>
+                            <h3 class="card-title">${article.title}</h3>
+                            <p class="card-subtitle">${article.title_cn}</p>
+                            <div class="card-meta">
+                                <span>📰 ${article.source}</span>
+                                <span>⏱️ ${article.reading_time}分钟 · 📝 ${article.word_count}词</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">#${article.topic.split(' / ')[0]}</span>
+                                <span class="tag">#${article.topic.split(' / ')[1] || '热点'}</span>
+                            </div>
+                            <div class="read-more">开始学习 →</div>
+                        </div>
+                    </a>
+                `;
+            }).join('');
         }
         
         loadArticles();
