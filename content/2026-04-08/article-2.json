@@ -1,0 +1,73 @@
+{
+  "id": "article-2",
+  "date": "2026-04-08",
+  "level": "intermediate",
+  "levelEmoji": "🟡",
+  "title": "Trump Threatens More Tariffs as Global Markets Plunge",
+  "source": "US News / 1News",
+  "sourceUrl": "https://www.usnews.com/",
+  "readTime": 4,
+  "tags": ["trade", "economy", "tariffs", "China", "markets"],
+  "content": {
+    "original": "President Donald Trump has threatened additional tariffs on China despite days of turmoil in global markets. The threat came after China announced it would retaliate against US tariffs announced last week. Chinese officials called Trump's move a 'typical example of unilateral bullying' and said China 'will respond resolutely until the end.' Meanwhile, Trump's trade negotiator Jamieson Greer told senators that tariff negotiations are ongoing with nearly 50 countries. Global stock markets have been falling sharply since the tariff announcements. Economists worry that the trade war could hurt economic growth worldwide. The tension between the world's two largest economies continues to escalate.",
+    "translation": "尽管全球股市连日动荡，总统唐纳德·特朗普仍威胁要对中国加征更多关税。这一威胁是在中国宣布将对美国上周宣布的关税进行报复之后发出的。中国官员称特朗普的举动是'单边霸凌的典型例子'，并表示中国将'坚决奉陪到底'。与此同时，特朗普的首席贸易谈判代表贾米森·格里尔告诉参议员们，美国正在与近50个国家进行关税谈判。自关税宣布以来，全球股市大幅下跌。经济学家担心贸易战可能损害全球经济增长。世界两大经济体之间的紧张局势持续升级。"
+  },
+  "vocabulary": [
+    {
+      "word": "tariff",
+      "phonetic": "/ˈtærɪf/",
+      "pos": "n.",
+      "meaning": "关税；税率",
+      "example": "The government imposed a 25% tariff on imported steel.",
+      "synonyms": ["duty", "tax", "levy"]
+    },
+    {
+      "word": "turmoil",
+      "phonetic": "/ˈtɜːrmɔɪl/",
+      "pos": "n.",
+      "meaning": "混乱；动荡",
+      "example": "The sudden resignation caused political turmoil.",
+      "synonyms": ["chaos", "confusion", "upheaval"]
+    },
+    {
+      "word": "retaliate",
+      "phonetic": "/rɪˈtælieɪt/",
+      "pos": "v.",
+      "meaning": "报复；反击",
+      "example": "The company threatened to retaliate against its competitors.",
+      "synonyms": ["strike back", "retaliate", "avenge"]
+    },
+    {
+      "word": "unilateral",
+      "phonetic": "/ˌjuːnɪˈlætrəl/",
+      "pos": "adj.",
+      "meaning": "单边的；单方面的",
+      "example": "The country made a unilateral decision to withdraw from the treaty.",
+      "synonyms": ["one-sided", "independent"]
+    },
+    {
+      "word": "negotiation",
+      "phonetic": "/nɪˌɡoʊʃiˈeɪʃn/",
+      "pos": "n.",
+      "meaning": "谈判；协商",
+      "example": "The two sides entered into negotiations to solve the dispute.",
+      "synonyms": ["talks", "discussion", "bargaining"]
+    },
+    {
+      "word": "escalate",
+      "phonetic": "/ˈeskəleɪt/",
+      "pos": "v.",
+      "meaning": "升级；逐步扩大",
+      "example": "The conflict could escalate into a full-scale war.",
+      "synonyms": ["intensify", "increase", "heighten"]
+    },
+    {
+      "word": "economist",
+      "phonetic": "/ɪˈkɑːnəmɪst/",
+      "pos": "n.",
+      "meaning": "经济学家",
+      "example": "Leading economists predict a recession next year.",
+      "synonyms": ["financial analyst"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-08",
+  "articles": [
+    {
+      "id": "article-1",
+      "level": "beginner",
+      "title": "NASA's Artemis II Mission: Flying Around the Moon Again",
+      "source": "NASA / Space News",
+      "readTime": 3
+    },
+    {
+      "id": "article-2",
+      "level": "intermediate",
+      "title": "Trump Threatens More Tariffs as Global Markets Plunge",
+      "source": "US News / 1News",
+      "readTime": 4
+    },
+    {
+      "id": "article-3",
+      "level": "advanced",
+      "title": "U.S., Israel and Iran Agree to Two-Week Ceasefire After Weeks of Fighting",
+      "source": "NPR / AP News",
+      "readTime": 6
+    }
+  ]
+}

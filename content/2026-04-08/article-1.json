@@ -1,0 +1,65 @@
+{
+  "id": "article-1",
+  "date": "2026-04-08",
+  "level": "beginner",
+  "levelEmoji": "🟢",
+  "title": "NASA's Artemis II Mission: Flying Around the Moon Again",
+  "source": "NASA / Space News",
+  "sourceUrl": "https://www.nasa.gov/",
+  "readTime": 3,
+  "tags": ["space", "NASA", "moon", "science"],
+  "content": {
+    "original": "For the first time in more than 50 years, astronauts on a NASA mission are flying around the Moon. NASA's Artemis II mission successfully left Earth orbit this week. The crew captured the first flyby images of the Moon during their historic test flight. These photos show regions no human has ever seen before. The astronauts also witnessed a rare solar eclipse from space. NASA's Orion spacecraft is now on its journey back to Earth. The crew will have a chance to speak with media before returning home.",
+    "translation": "五十多年来，NASA的宇航员们首次执行绕月飞行任务。NASA的阿耳忒弥斯二号任务本周成功脱离地球轨道。宇航员们在这次历史性试飞中拍摄到了首批月球飞掠照片。这些照片展示了人类从未见过的区域。宇航员们还从太空中目睹了一次罕见的日食。NASA的猎户座飞船现在正在返回地球的途中。在回家之前，宇航员们将有机会与媒体通话。"
+  },
+  "vocabulary": [
+    {
+      "word": "astronaut",
+      "phonetic": "/ˈæstrənɔːt/",
+      "pos": "n.",
+      "meaning": "宇航员，航天员",
+      "example": "The astronaut spent six months on the International Space Station.",
+      "synonyms": ["spaceman", "cosmonaut"]
+    },
+    {
+      "word": "orbit",
+      "phonetic": "/ˈɔːrbɪt/",
+      "pos": "n./v.",
+      "meaning": "轨道；绕轨道运行",
+      "example": "The satellite orbits the Earth every 90 minutes.",
+      "synonyms": ["path", "trajectory", "circle"]
+    },
+    {
+      "word": "capture",
+      "phonetic": "/ˈkæptʃər/",
+      "pos": "v.",
+      "meaning": "拍摄；捕捉；捕获",
+      "example": "The photographer captured a beautiful sunset.",
+      "synonyms": ["record", "film", "catch"]
+    },
+    {
+      "word": "rare",
+      "phonetic": "/rer/",
+      "pos": "adj.",
+      "meaning": "罕见的；稀有的",
+      "example": "It is rare to see snow in this region.",
+      "synonyms": ["uncommon", "scarce", "unusual"]
+    },
+    {
+      "word": "eclipse",
+      "phonetic": "/ɪˈklɪps/",
+      "pos": "n.",
+      "meaning": "日食；月食",
+      "example": "Many people traveled to see the total solar eclipse.",
+      "synonyms": ["occultation"]
+    },
+    {
+      "word": "spacecraft",
+      "phonetic": "/ˈspeɪskræft/",
+      "pos": "n.",
+      "meaning": "航天器；宇宙飞船",
+      "example": "The spacecraft landed safely on Mars.",
+      "synonyms": ["spaceship", "vehicle", "capsule"]
+    }
+  ]
+}

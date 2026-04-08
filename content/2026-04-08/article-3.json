@@ -1,0 +1,81 @@
+{
+  "id": "article-3",
+  "date": "2026-04-08",
+  "level": "advanced",
+  "levelEmoji": "🔴",
+  "title": "U.S., Israel and Iran Agree to Two-Week Ceasefire After Weeks of Fighting",
+  "source": "NPR / AP News",
+  "sourceUrl": "https://www.npr.org/",
+  "readTime": 6,
+  "tags": ["Iran", "Israel", "Middle East", "ceasefire", "diplomacy", "conflict"],
+  "content": {
+    "original": "Iran, the United States and Israel have agreed to a two-week ceasefire, bringing a temporary halt to weeks of intense fighting. The deal was brokered through Pakistan's mediation, with Prime Minister Shehbaz Sharif facilitating communication between Tehran and Washington. Under the agreement, the U.S. and Israel will suspend bombing Iran for two weeks while a permanent peace agreement is negotiated. However, the ceasefire's terms remain disputed. Trump initially announced Iran had proposed a 'workable' 10-point plan, but Iranian state media published a different version suggesting Iran would maintain control over the Strait of Hormuz and continue uranium enrichment. The deal also allows Iran and Oman to charge fees on ships transiting through the Strait, upending decades of precedent treating it as international waters. Meanwhile, Israel stated that the ceasefire does not cover fighting against Hezbollah in Lebanon, where operations continue. Iranian leaders hailed the ceasefire as a victory, warning that 'our hands are on the trigger' if the agreement is violated.",
+    "translation": "伊朗、美国和以色列已达成为期两周的停火协议，为持续数周的激烈战斗带来暂时的平息。该协议通过巴基斯坦的调解达成，谢赫巴兹·谢里夫总理促成了德黑兰和华盛顿之间的沟通。根据协议，美国和以色列将在两周内停止对伊朗的轰炸，同时谈判达成永久性和平协议。然而，停火条款仍存在争议。特朗普最初宣布伊朗提出了一项'可行的'十点计划，但伊朗国家媒体发布了不同版本，暗示伊朗将保持对霍尔木兹海峡的控制并继续铀浓缩。该协议还允许伊朗和阿曼对通过海峡的船只收取费用，打破了数十年来将其视为国际水域的惯例。与此同时，以色列表示停火不涵盖在黎巴嫩与真主党的战斗，那里的行动仍在继续。伊朗领导人将停火宣称为胜利，并警告如果协议被违反，'我们的手指仍在扳机上'。"
+  },
+  "vocabulary": [
+    {
+      "word": "ceasefire",
+      "phonetic": "/ˈsiːsfaɪər/",
+      "pos": "n.",
+      "meaning": "停火；停战",
+      "example": "The two sides agreed to a temporary ceasefire for humanitarian reasons.",
+      "synonyms": ["truce", "armistice", "peace"]
+    },
+    {
+      "word": "broker",
+      "phonetic": "/ˈbroʊkər/",
+      "pos": "v.",
+      "meaning": "促成；协商达成",
+      "example": "The diplomat helped broker a peace deal between the rival factions.",
+      "synonyms": ["negotiate", "arrange", "facilitate"]
+    },
+    {
+      "word": "mediation",
+      "phonetic": "/ˌmiːdiˈeɪʃn/",
+      "pos": "n.",
+      "meaning": "调解；斡旋",
+      "example": "The dispute was resolved through professional mediation.",
+      "synonyms": ["arbitration", "conciliation", "intervention"]
+    },
+    {
+      "word": "transit",
+      "phonetic": "/ˈtrænzɪt/",
+      "pos": "v./n.",
+      "meaning": "通过；过境；运输",
+      "example": "Goods in transit are not subject to customs duties.",
+      "synonyms": ["passage", "transport", "crossing"]
+    },
+    {
+      "word": "upend",
+      "phonetic": "/ʌpˈend/",
+      "pos": "v.",
+      "meaning": "颠覆；打倒；推翻",
+      "example": "The new policy could upend the entire industry.",
+      "synonyms": ["overturn", "disrupt", "reverse"]
+    },
+    {
+      "word": "precedent",
+      "phonetic": "/ˈpresɪdənt/",
+      "pos": "n.",
+      "meaning": "先例；惯例",
+      "example": "The court's ruling set an important legal precedent.",
+      "synonyms": ["example", "model", "standard"]
+    },
+    {
+      "word": "enrichment",
+      "phonetic": "/ɪnˈrɪtʃmənt/",
+      "pos": "n.",
+      "meaning": "浓缩；丰富",
+      "example": "Uranium enrichment is a controversial nuclear technology.",
+      "synonyms": ["concentration", "enhancement"]
+    },
+    {
+      "word": "contention",
+      "phonetic": "/kənˈtenʃn/",
+      "pos": "n.",
+      "meaning": "争论；争议；论点",
+      "example": "The issue remains a source of contention between the two countries.",
+      "synonyms": ["dispute", "conflict", "argument"]
+    }
+  ]
+}

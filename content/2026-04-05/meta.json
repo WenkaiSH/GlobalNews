@@ -1,0 +1,8 @@
+{
+  "date": "2026-04-05",
+  "articles": [
+    {"id": "article-1", "level": "beginner", "topic": "国际 / 贸易"},
+    {"id": "article-2", "level": "intermediate", "topic": "环境 / 气候变化"},
+    {"id": "article-3", "level": "advanced", "topic": "商业 / 全球经济"}
+  ]
+}
