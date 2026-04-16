@@ -1,0 +1,109 @@
+{
+  "id": "article-1",
+  "title": "Nvidia Faces $5.5 Billion Charge Over US Export Controls on AI Chips",
+  "level": "beginner",
+  "category": "technology",
+  "source": "Reuters / The Verge",
+  "date": "2026-04-16",
+  "timestamp": "2026-04-16T16:00:00+08:00",
+  "url": "https://www.theverge.com/news/649439/nvidia-expects-a-5-5-billion-hit-for-exporting-h20-processors-to-china",
+  "image": "images/article-1.jpg",
+  "summary": "Nvidia expects to take a $5.5 billion charge after the US government restricted exports of its H20 AI chips to China. The new licensing requirement affects major chipmakers including Nvidia, AMD, and Intel.",
+  "wordCount": 285,
+  "estimatedReadTime": 3,
+  "original": "Nvidia expects a $5.5 billion hit for exporting H20 processors to China. The US government told Nvidia on April 9th that the company would need a license to export its H20 AI chip to China, Reuters and CNBC report. The charges are associated with H20 products for inventory, purchase commitments, and related reserves, according to an Nvidia SEC filing. Multiple government officials have been calling for stronger export controls on US-built GPUs. Allowing China-based companies to obtain these chips, in particular AI companies, would threaten the US's dominance in AI as well as its national security, they argue. AMD also faces similar restrictions on its MI308 products and expects an $800 million charge.",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "text": "Nvidia expects a $5.5 billion hit for exporting H20 processors to China.",
+          "translation": "英伟达预计因向中国出口H20处理器将遭受55亿美元的损失。"
+        },
+        {
+          "text": "The US government told Nvidia on April 9th that the company would need a license to export its H20 AI chip to China, Reuters and CNBC report.",
+          "translation": "据路透社和CNBC报道，美国政府于4月9日告知英伟达，该公司需要获得许可证才能向中国出口H20人工智能芯片。"
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "text": "The charges are associated with H20 products for inventory, purchase commitments, and related reserves, according to an Nvidia SEC filing.",
+          "translation": "根据英伟达提交给美国证券交易委员会的文件，这笔费用涉及H20产品的库存、采购承诺和相关储备。"
+        },
+        {
+          "text": "Multiple government officials have been calling for stronger export controls on US-built GPUs.",
+          "translation": "多名政府官员一直呼吁对美国制造的GPU实施更严格的出口管制。"
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "text": "Allowing China-based companies to obtain these chips, in particular AI companies, would threaten the US's dominance in AI as well as its national security, they argue.",
+          "translation": "他们认为，允许中国公司获得这些芯片，尤其是人工智能公司，将威胁美国在人工智能领域的主导地位及其国家安全。"
+        },
+        {
+          "text": "AMD also faces similar restrictions on its MI308 products and expects an $800 million charge.",
+          "translation": "AMD的MI308产品也面临类似限制，预计将产生8亿美元的费用。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "charge",
+      "phonetic": "/tʃɑːrdʒ/",
+      "partOfSpeech": "n.",
+      "definition": "a fee or expense; an amount of money that a company must pay",
+      "chinese": "费用；支出；损失",
+      "example": "The company reported a $5.5 billion charge related to export restrictions.",
+      "exampleTranslation": "该公司报告了与出口限制相关的55亿美元损失。"
+    },
+    {
+      "word": "license",
+      "phonetic": "/ˈlaɪsns/",
+      "partOfSpeech": "n.",
+      "definition": "an official permit to do, use, or own something",
+      "chinese": "许可证；执照",
+      "example": "Nvidia needs a license to export its AI chips to China.",
+      "exampleTranslation": "英伟达需要许可证才能向中国出口其人工智能芯片。"
+    },
+    {
+      "word": "export controls",
+      "phonetic": "/ˈekspɔːrt kənˈtroʊlz/",
+      "partOfSpeech": "n. phrase",
+      "definition": "government regulations that restrict the sale of certain products to other countries",
+      "chinese": "出口管制",
+      "example": "The government imposed stricter export controls on advanced semiconductors.",
+      "exampleTranslation": "政府对先进半导体实施了更严格的出口管制。"
+    },
+    {
+      "word": "inventory",
+      "phonetic": "/ˈɪnvəntɔːri/",
+      "partOfSpeech": "n.",
+      "definition": "the goods or materials that a business holds for sale",
+      "chinese": "库存；存货",
+      "example": "The company had to write down the value of its chip inventory.",
+      "exampleTranslation": "公司不得不减记其芯片库存的价值。"
+    },
+    {
+      "word": "dominance",
+      "phonetic": "/ˈdɒmɪnəns/",
+      "partOfSpeech": "n.",
+      "definition": "the state of being more powerful or influential than others",
+      "chinese": "主导地位；优势",
+      "example": "The US wants to maintain its dominance in AI technology.",
+      "exampleTranslation": "美国希望保持在人工智能技术领域的主导地位。"
+    },
+    {
+      "word": "national security",
+      "phonetic": "/ˈnæʃnəl sɪˈkjʊərəti/",
+      "partOfSpeech": "n. phrase",
+      "definition": "the protection of a nation's safety and interests from threats",
+      "chinese": "国家安全",
+      "example": "Export controls are often justified on national security grounds.",
+      "exampleTranslation": "出口管制通常以国家安全为由进行辩护。"
+    }
+  ]
+}

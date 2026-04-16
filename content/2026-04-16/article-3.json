@@ -1,0 +1,127 @@
+{
+  "id": "article-3",
+  "title": "OpenAI Releases o3 and o4-mini: The Most Advanced AI Reasoning Models Yet",
+  "level": "advanced",
+  "category": "technology",
+  "source": "Fortune / OpenAI",
+  "date": "2026-04-16",
+  "timestamp": "2026-04-16T16:00:00+08:00",
+  "url": "https://fortune.com/2025/04/16/openai-new-ai-reasoning-models-coding-agent/",
+  "image": "images/article-3.jpg",
+  "summary": "OpenAI has unveiled its most capable AI reasoning models to date - o3 and o4-mini - alongside an open-source coding agent called Codex CLI, marking the company's first significant open-source release since 2019.",
+  "wordCount": 420,
+  "estimatedReadTime": 5,
+  "original": "OpenAI has released two AI reasoning models that it says are its most capable yet as well as an open-source AI agent that helps computer programmers code, as the company seeks to gain a lead over its rivals. The open-source coding agent, called Codex CLI, marks the first time since 2019 that OpenAI has introduced a significant open-source tool. The other new models are the full-scale version of its o3 model, which OpenAI says is its most advanced AI system, as well as a smaller, but more efficient model called o4-mini. These are the first models where top scientists tell us they produce legitimately good and useful novel ideas, OpenAI president Greg Brockman said. The models have the ability to autonomously use other software tools, such as web browsing and coding environments, without having to be specifically prompted to do so by a user. The release comes at a time when OpenAI faces pressure from Chinese rival DeepSeek and other competitors including Anthropic and Google.",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "text": "OpenAI has released two AI reasoning models that it says are its most capable yet as well as an open-source AI agent that helps computer programmers code, as the company seeks to gain a lead over its rivals.",
+          "translation": "OpenAI发布了两个其声称迄今为止最强大的AI推理模型，以及一个帮助程序员编写代码的开源AI代理，该公司正试图以此领先于竞争对手。"
+        },
+        {
+          "text": "The open-source coding agent, called Codex CLI, marks the first time since 2019 that OpenAI has introduced a significant open-source tool.",
+          "translation": "这款名为Codex CLI的开源编码代理标志着自2019年以来OpenAI首次推出重要的开源工具。"
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "text": "The other new models are the full-scale version of its o3 model, which OpenAI says is its most advanced AI system, as well as a smaller, but more efficient model called o4-mini.",
+          "translation": "其他新模型包括o3模型的完整版本，OpenAI称这是其最先进的人工智能系统，以及一个名为o4-mini的更小型但效率更高的模型。"
+        },
+        {
+          "text": "These are the first models where top scientists tell us they produce legitimately good and useful novel ideas, OpenAI president Greg Brockman said.",
+          "translation": "OpenAI总裁格雷格·布罗克曼表示，这些模型是首批让顶尖科学家告诉我们它们能产生真正良好且有用的新颖想法的模型。"
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "text": "The models have the ability to autonomously use other software tools, such as web browsing and coding environments, without having to be specifically prompted to do so by a user.",
+          "translation": "这些模型能够自主使用其他软件工具，如网页浏览和编码环境，而无需用户专门提示。"
+        },
+        {
+          "text": "The release comes at a time when OpenAI faces pressure from Chinese rival DeepSeek and other competitors including Anthropic and Google.",
+          "translation": "此次发布正值OpenAI面临来自中国竞争对手DeepSeek以及其他包括Anthropic和谷歌在内的竞争对手的压力之际。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "reasoning",
+      "phonetic": "/ˈriːzənɪŋ/",
+      "partOfSpeech": "n.",
+      "definition": "the process of thinking about something in a logical way to form a conclusion or judgment",
+      "chinese": "推理；推断",
+      "example": "The new AI models demonstrate improved reasoning capabilities compared to previous versions.",
+      "exampleTranslation": "与先前版本相比，新的人工智能模型展示了改进的推理能力。"
+    },
+    {
+      "word": "autonomously",
+      "phonetic": "/ɔːˈtɒnəməsli/",
+      "partOfSpeech": "adv.",
+      "definition": "independently, without external control or influence",
+      "chinese": "自主地；独立地",
+      "example": "The AI can autonomously search the web and analyze data without human intervention.",
+      "exampleTranslation": "人工智能可以在没有人工干预的情况下自主搜索网络和分析数据。"
+    },
+    {
+      "word": "proprietary",
+      "phonetic": "/prəˈpraɪətri/",
+      "partOfSpeech": "adj.",
+      "definition": "relating to an owner or ownership; protected by patent or trademark",
+      "chinese": "专有的；专利的",
+      "example": "Most of OpenAI's models can only be accessed through a proprietary API.",
+      "exampleTranslation": "OpenAI的大多数模型只能通过专有API访问。"
+    },
+    {
+      "word": "benchmark",
+      "phonetic": "/ˈbentʃmɑːrk/",
+      "partOfSpeech": "n.",
+      "definition": "a standard or point of reference against which things may be compared or assessed",
+      "chinese": "基准；参照标准",
+      "example": "The o3 model achieved state-of-the-art results on various benchmarks.",
+      "exampleTranslation": "o3模型在各种基准测试中取得了最先进的结果。"
+    },
+    {
+      "word": "inference",
+      "phonetic": "/ˈɪnfərəns/",
+      "partOfSpeech": "n.",
+      "definition": "the process of deriving logical conclusions from premises known or assumed to be true",
+      "chinese": "推断；推理",
+      "example": "The model's inference speed has been significantly improved in the new version.",
+      "exampleTranslation": "新版本中模型的推理速度得到了显著提升。"
+    },
+    {
+      "word": "latency",
+      "phonetic": "/ˈleɪtnsi/",
+      "partOfSpeech": "n.",
+      "definition": "the delay before a transfer of data begins following an instruction for its transfer",
+      "chinese": "延迟；时延",
+      "example": "The o4-mini model offers powerful reasoning with significantly reduced latency.",
+      "exampleTranslation": "o4-mini模型提供强大的推理能力，同时显著降低延迟。"
+    },
+    {
+      "word": "disburse",
+      "phonetic": "/dɪsˈbɜːrs/",
+      "partOfSpeech": "v.",
+      "definition": "to pay out money from a fund",
+      "chinese": "支付；支出",
+      "example": "OpenAI set up a $1 million fund to disburse grants to promising projects.",
+      "exampleTranslation": "OpenAI设立了100万美元的基金，向有前景的项目发放资助。"
+    },
+    {
+      "word": "upend",
+      "phonetic": "/ʌpˈend/",
+      "partOfSpeech": "v.",
+      "definition": "to set or turn something on its end; to upset or disrupt",
+      "chinese": "颠覆；推翻",
+      "example": "DeepSeek upended conventional wisdom about the technological edge of US AI labs.",
+      "exampleTranslation": "DeepSeek颠覆了关于美国人工智能实验室技术优势的常规认知。"
+    }
+  ]
+}

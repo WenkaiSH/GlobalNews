@@ -1,0 +1,118 @@
+{
+  "id": "article-2",
+  "title": "US-China Trade Tensions Escalate Over Tariffs and Rare Earth Controls",
+  "level": "intermediate",
+  "category": "business",
+  "source": "Reuters / Financial Times",
+  "date": "2026-04-16",
+  "timestamp": "2026-04-16T16:00:00+08:00",
+  "url": "https://www.reuters.com/business/finance/trump-tariffs-china-rare-earth-export-controls-2025",
+  "image": "images/article-2.jpg",
+  "summary": "The trade war between the US and China intensifies as Trump administration levies new tariffs while China responds with rare earth export restrictions, disrupting global supply chains and creating market uncertainty.",
+  "wordCount": 340,
+  "estimatedReadTime": 4,
+  "original": "President Donald Trump announced America's Liberation Day on April 2, levying new tariffs against more than 180 countries and territories. Since then, Americans have been liberated from a good chunk of their retirement savings, with more than $6 trillion in stock value being wiped out in just two days. China has retaliated with export restrictions on rare earth elements and magnets, severely disrupting the global supply. In response to US tariffs, China raised duties on US goods to 125%, calling Trump's tariff hikes a joke. A US judge has blocked Trump's attempt to remove the legal status of 500,000 immigrants. Meanwhile, global stock markets rose after Trump paused tariffs on electronics.",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "text": "President Donald Trump announced America's Liberation Day on April 2, levying new tariffs against more than 180 countries and territories.",
+          "translation": "唐纳德·特朗普总统于4月2日宣布美国的解放日，对超过180个国家和地区征收新的关税。"
+        },
+        {
+          "text": "Since then, Americans have been liberated from a good chunk of their retirement savings, with more than $6 trillion in stock value being wiped out in just two days.",
+          "translation": "自那以后，美国人的退休储蓄被解放了一大部分，仅仅两天内就有超过6万亿美元的市值蒸发。"
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "text": "China has retaliated with export restrictions on rare earth elements and magnets, severely disrupting the global supply.",
+          "translation": "中国以对稀土元素和磁铁的出口限制作为报复，严重扰乱了全球供应链。"
+        },
+        {
+          "text": "In response to US tariffs, China raised duties on US goods to 125%, calling Trump's tariff hikes a joke.",
+          "translation": "作为对美国关税的回应，中国将对美国商品的关税提高到125%，并称特朗普的关税上调是一个笑话。"
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "text": "A US judge has blocked Trump's attempt to remove the legal status of 500,000 immigrants.",
+          "translation": "一名美国法官阻止了特朗普试图取消50万移民合法身份的企图。"
+        },
+        {
+          "text": "Meanwhile, global stock markets rose after Trump paused tariffs on electronics.",
+          "translation": "与此同时，在特朗普暂停对电子产品征收关税后，全球股市上涨。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "levy",
+      "phonetic": "/ˈlevi/",
+      "partOfSpeech": "v.",
+      "definition": "to impose or collect a tax, fee, or fine",
+      "chinese": "征收；征缴",
+      "example": "The government decided to levy new tariffs on imported goods.",
+      "exampleTranslation": "政府决定对进口商品征收新的关税。"
+    },
+    {
+      "word": "retaliate",
+      "phonetic": "/rɪˈtælieɪt/",
+      "partOfSpeech": "v.",
+      "definition": "to take revenge or respond to an attack with a counterattack",
+      "chinese": "报复；反击",
+      "example": "China retaliated against US tariffs with its own trade restrictions.",
+      "exampleTranslation": "中国以自身的贸易限制对美国关税进行报复。"
+    },
+    {
+      "word": "rare earth elements",
+      "phonetic": "/rer ɜːrθ ˈelɪmənts/",
+      "partOfSpeech": "n. phrase",
+      "definition": "a group of 17 chemically similar metallic elements that are crucial for high-tech manufacturing",
+      "chinese": "稀土元素",
+      "example": "Rare earth elements are essential for producing electric vehicles and smartphones.",
+      "exampleTranslation": "稀土元素对于生产电动汽车和智能手机至关重要。"
+    },
+    {
+      "word": "disrupt",
+      "phonetic": "/dɪsˈrʌpt/",
+      "partOfSpeech": "v.",
+      "definition": "to interrupt or prevent a process or system from continuing normally",
+      "chinese": "扰乱；使中断",
+      "example": "The strike disrupted transportation across the entire country.",
+      "exampleTranslation": "罢工扰乱了整个国家的交通运输。"
+    },
+    {
+      "word": "supply chain",
+      "phonetic": "/səˈplaɪ tʃeɪn/",
+      "partOfSpeech": "n. phrase",
+      "definition": "the sequence of processes involved in the production and distribution of a commodity",
+      "chinese": "供应链",
+      "example": "Global supply chains have been severely affected by the trade war.",
+      "exampleTranslation": "全球供应链受到贸易战的严重影响。"
+    },
+    {
+      "word": "market volatility",
+      "phonetic": "/ˈmɑːrkɪt ˌvɒləˈtɪləti/",
+      "partOfSpeech": "n. phrase",
+      "definition": "the rate at which the price of a security increases or decreases for a given set of returns",
+      "chinese": "市场波动；市场动荡",
+      "example": "Investors are concerned about increased market volatility due to trade tensions.",
+      "exampleTranslation": "投资者担心贸易紧张局势会导致市场波动加剧。"
+    },
+    {
+      "word": "recession",
+      "phonetic": "/rɪˈseʃn/",
+      "partOfSpeech": "n.",
+      "definition": "a period of temporary economic decline during which trade and industrial activity are reduced",
+      "chinese": "经济衰退",
+      "example": "Economists are debating whether the country will enter a recession.",
+      "exampleTranslation": "经济学家们正在争论该国是否会进入经济衰退。"
+    }
+  ]
+}
